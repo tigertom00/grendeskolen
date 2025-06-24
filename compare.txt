@@ -1,0 +1,58 @@
+1. General Observations
+The documents are largely similar in structure and sectioning.
+They both cover the same project (Haugen Skole, +01=434.004), but Rev. 09 introduces some key changes and updates.
+2. Title Block and Project Details (First Page)
+Changes:
+Rev.08: “GK BA - 434 004 0808”
+Rev.09: “GK BA - 434 004 0909”
+The revision number is updated to "0909" in Rev.09.
+In the list of component/system numbers and codes, Rev.09 includes:
+More frequent use of “KR31371” (uppercase) and “KR31371 21006013”.
+Some ordering or duplication differences in the system numbers.
+The revision log at the bottom of page 1 in Rev.09 includes different or additional dates:
+“16.06.25” is now referenced as a revision date.
+The text “Flyttet bryter s. 52 til tavle +01=434.005” appears in revision logs for Rev.09.
+3. Revision Table & Updates (Page 2+)
+Changes:
+Rev.09 lists the following new or changed revision information:
+“Flyttet bryter s. 52 til tavle +01=434.005”
+“16.06.25” is used as a revision date.
+The revision number and corresponding codes are updated from “03” to “09”.
+The sequence and content of the revision comments are slightly altered to reflect new changes.
+4. Notable New Content (Unique to Rev. 09)
+NEW! On Page 25 (and highlighted):
+
+Code
+Rev. 09
+Termiske energimålere
+har fått nye komponentnummer.
+Nye anleggnummer for radiator-, 
+gulvvarme- og forvarmekurser
+This block is not present in Rev. 08.
+
+What does this mean?
+Thermal energy meters have new component numbers.
+New plant numbers for radiator, floor heating, and preheating circuits.
+This is a significant update indicating renumbering and restructuring of system components.
+
+5. Minor Changes
+Various codes and numbering (e.g., “KR31371”, capitalization) are updated, and some numbers appear more often or in new locations.
+The revision number (Rev.) is consistently updated from “03”/“0808” to “09”/“0909” throughout all headers and footers.
+The revision log reflects the new revision cycle and new changes.
+6. No Change/Repeating Content
+Most of the technical content, table structure, and section headers remain unchanged.
+The structure and numbering of pages, tables, and references are highly consistent outside the revision updates.
+7. Summary Table
+Section	Rev08	Rev09
+Title block	GK BA - 434 004 0808	GK BA - 434 004 0909
+Revision No.	03 / 0808	09 / 0909
+Revision Dates	Up to 09.05.25, 30.08.24, 23.08.24, etc.	Added 16.06.25, updated log entries
+Major New Note	-	Rev. 09: Termiske energimålere har fått nye komponentnummer...
+Revision Details	No mention of moving switch or component renumbering	Flyttet bryter s. 52 til tavle +01=434.005, new component and plant numbers
+Codes	“kr31371” used, not as frequent or uppercase	“KR31371” used more and in uppercase
+Conclusion: Key Differences
+Rev. 09 introduces new component and plant numbering for thermal energy meters, radiator, floor heating, and preheating circuits.
+A switch on page 52 has been moved to the panel +01=434.005 (noted in revision log).
+Revision numbers, dates, and certain codes have been updated to reflect the new revision.
+No major structural or technical changes apart from the above.
+If you want a line-by-line diff or comparison of specific sections, let me know!
