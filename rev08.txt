@@ -1,0 +1,4562 @@
+
+----- PAGE 1 -----
+Entreprise
+Erstatning for:Original format
+Tittel:
+UtgiverRev Dato Tekst OR
+Fag Område System Løpenr. Rev.Målestokk Blad
+avRev. Utg. Prosjektnr. Godkj. Sjekket LagetFølgende systemer inngår i fordeling
+Dokumentasjon utarbeidet av: Prosjektadresse: Sted:
+Kunde:
+Postnr/sted:GK Inneklima AS
+Postadresse:Postadresse: Postnr/sted:
+Telefon: Telefax:
+Avdelingskontor:
+Haugen SkoleA4 1:1 1 93+01=310
++01=310.001
++01=320
++01=320.001
++01=320.002
++01=320.003
++01=320.004
++01=320.005
++01=320.006
++01=320.007
++01=320.008
++01=332
++01=332.001
++01=335
++01=335.001
++01=335.002
++01=359
++01=359.001
++01=359.002
++01=360
++01=360.006
++01=369
++01=369.001
++01=369.002
++01=370
++01=370.001Sanitæranlegg
+Varmt og Kaldt forbruksvann
+Varmeanlegg
+Hovedvarmekrets
+Gulvvarmekrets
+Radiatorkurs
+Varmekurs til bygningsdel 2
+Ventilasjonskurs
+Ventilasjonskurs
+Radiatorkurs
+Forvarming varmt tappevann
+Installasjon for brannslokking med sprinkler
+Sprinklersentral
+Installasjon for brannslokkig med inertgass
+Aerosol slukkeanlegg
+Aerosol slukkeanlegg
+Annen installasjon for kulde- og kjølesystemer
+Kjøling IKT rom
+Kjøling IKT rom
+Luftbehandling
+Kjøling til ventilasjonsaggregat
+Luftbehandling
+Avtrekksvifte kjøkken
+Avtrekksvifte teknisk rom
+Komfortkjøleanlegg
+Kjølekrets primærside VVX+01=434.004
++01=370.002
++01=370.006
++01=370.007
++01=390
++01=390.001
++01=432
++01=432.001
++01=434
++01=434.004
++01=542
++01=542.001
++01=562
++01=562.004Kjølekrets sekundærside VVX
+Kjølekurs ventilasjon
+Kjølekurs ventilasjon
+Energibrønnkrets
+Energibrønnkrets
+System for hovedfordeling
+Hovedtavle
+Elkraftfordeling til driftstekniske installasjoner
+Elkraftfordeling til driftstekniske installasjoner
+Brannalarm
+Brannsentral
+Sentral driftskontroll og automatisering
+Sentral driftskontroll og automatisering
+ Høybråtenveien 4, 1055 Oslo
+Oslobygg
+Grenseveien 78C 0663 OsloPostboks 70 Bryn 0681 Oslo
+(+47) 22 97 47 00
+Byggautomasjon OsloHaugen Skole
+GK BA - 434 004 0808
+SB2659
+ME2400
+ME2400
+ME2400
+ME2400
+sb2659
+MB2858
+ME2400
+SL39347KR31371
+kr31371 kr3137121006013
+21006013
+21006013
+21006013
+21006013
+21006013
+21006013
+21006013
+2100601303
+02
+01
+00 00010203 03
+02
+01
+00
+04
+05
+06
+07
+0809.05.25
+30.08.24
+23.08.24
+12.08.24
+20.06.24
+17.09.24
+28.10.24
+02.12.24
+13.12.24
+09.05.25 Revidert og lagt til pumper og endret merkingerRevidert system og lagt til kurser for framtidig brukTopologi og systemskisseSlettet spjeld s. 21 og bryter s. 34Som byggetOpprettet ArbeidstegningOppdatert som bygget fra tavlebyggerLagt til Modbus på 360.006 (side 42)Korrigert etter igangkjøringGjeldende revisjon
+----- PAGE 2 -----
+Tittel: Erstatning for:
+Rev Dato Tekst Laget Sjekket Godkj. Prosjektnr. Rev. Utg. ORUtgiver Fag Område System Løpenr. Rev.
+Blad: av Entreprise:Haugen Skole
+2 93GK BA - 434 004 0808
+03
+02
+01 12.08.2423.08.2430.08.2409.05.25
+Oppdatert som bygget fra tavlebyggerLagt til Modbus på 360.006 (side 42)Korrigert etter igangkjøringGjeldende revisjon
+ME2400ME2400SB2659
+210060132100601321006013
+010203
+010203
+Haugen SkoleTittel Sidenr. Sist rettet Revisjonskommentarer
+Prosjektforside 1
+Innholdsfortegnelse 2
+Topologi
+Systemskisse
+Hovedstrøm
+Hovedstrøm
+Hovedstrøm
+Hovedstrøm
+Hovedstrøm
+Hovedstrøm
+Hovedstrøm
+Hovedstrøm
+Hovedstrøm5
+6
+Hovedstrøm
+8
+9
+10
+11
+12
+13
+14
+1530.05.2025
+30.05.2025
+02.12.2024
+02.12.2024
+22.07.2024
+13.12.2024
+02.05.2025
+06.05.2025
+06.05.2025
+06.05.2025
+30.05.2025
+30.05.2025
+30.05.2025
+Hovedstrøm
+Hovedstrøm
+Hovedstrøm
+Hovedstrøm
+Hovedstrøm
+Hovedstrøm16
+17
+18
+19
+20
+2106.05.2025
+06.05.2025
+06.05.2025
+06.05.2025
+06.05.2025
+06.05.2025
+OU006
+Controller (CPU) - Varmesentral
+Modbus
+M-Bus
+XZ001 - Digitale Utganger
+XZ002 - Digitale UtgangerOU006
+23
+24
+25
+26
+2722.07.2024
+13.12.2024
+05.05.2025
+13.12.2024
+05.05.2025
+05.05.2025
+XZ003 - Digitale Utganger 28 05.05.2025
+XZ004 - Digitale Utganger 29 09.05.2025
+XZ005 - Digitale Utganger 30 13.12.2024
+----- PAGE 3 -----
+Tittel: Erstatning for:
+Rev Dato Tekst Laget Sjekket Godkj. Prosjektnr. Rev. Utg. ORUtgiver Fag Område System Løpenr. Rev.
+Blad: av Entreprise:Haugen Skole
+3 93GK BA - 434 004 0808
+03
+02
+01 12.08.2423.08.2430.08.2409.05.25
+Oppdatert som bygget fra tavlebyggerLagt til Modbus på 360.006 (side 42)Korrigert etter igangkjøringGjeldende revisjon
+ME2400ME2400SB2659
+210060132100601321006013
+010203
+010203
+Haugen SkoleTittel Sidenr. Sist rettet Revisjonskommentarer
+XZ006 - Analoge Innganger 31
+XZ007 - Analoge Innganger 32
+XZ008 - Analoge Innganger
+XZ009 - Analoge Innganger
+XZ010 - Analoge Innganger
+XZ017 - Analoge Innganger
+XZ018 - Analoge Innganger
+XZ011 - Digitale Innganger
+XZ011 - Digitale Innganger
+XZ012 - Digitale Innganger
+XZ012 - Digitale Innganger
+XZ013 - Digitale Innganger
+XZ013 - Digitale Innganger33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+4308.05.2025
+08.05.2025
+08.05.2025
+08.05.2025
+08.05.2025
+08.05.2025
+08.05.2025
+30.05.2025
+30.05.2025
+30.05.2025
+05.05.2025
+05.05.2025
+05.05.2025
+XZ014 - Digitale Innganger
+XZ014 - Digitale Innganger
+XZ015 - Digitale Innganger
+XZ015 - Digitale Innganger
+XZ016 - Digitale Innganger
+XZ016 - Digitale Innganger44
+45
+46
+47
+48
+4905.05.2025
+13.12.2024
+30.05.2025
+30.05.2025
+05.05.2025
+30.05.2025
+XZ016 - Digitale Innganger
+XZ016 - Digitale Innganger
+XZ016 - Digitale Innganger
+XZ016 - Digitale Innganger
+OU005
+Controller (CPU) - Ventilasjon50
+51
+52
+53
+OU005
+5430.05.2025
+30.05.2025
+30.05.2025
+30.05.2025
+22.07.2024
+30.05.2025
+Modbus 55 30.05.2025
+XZ001 - Digitale Utganger 56 30.05.2025
+XZ002 - Digitale Utganger 57 30.05.2025
+----- PAGE 4 -----
+Tittel: Erstatning for:
+Rev Dato Tekst Laget Sjekket Godkj. Prosjektnr. Rev. Utg. ORUtgiver Fag Område System Løpenr. Rev.
+Blad: av Entreprise:Haugen Skole
+4 93GK BA - 434 004 0808
+03
+02
+01 12.08.2423.08.2430.08.2409.05.25
+Oppdatert som bygget fra tavlebyggerLagt til Modbus på 360.006 (side 42)Korrigert etter igangkjøringGjeldende revisjon
+ME2400ME2400SB2659
+210060132100601321006013
+010203
+010203
+Haugen SkoleTittel Sidenr. Sist rettet Revisjonskommentarer
+XZ003 - Analoge Innganger 58
+XZ004 - Analoge Innganger 59
+XZ005 - Analoge Innganger
+XZ006 - Analoge Innganger
+XZ007 - Digitale Innganger
+XZ007 - Digitale Innganger
+XZ008 - Digitale Innganger
+XZ008 - Digitale Innganger
+Kabelliste60
+61
+62
+63
+64
+65
+Kabelliste30.05.2025
+30.05.2025
+30.05.2025
+30.05.2025
+30.05.2025
+30.05.2025
+30.05.2025
+30.05.2025
+22.07.2024
+----- PAGE 5 -----
+Tittel: Erstatning for:
+Rev Dato Tekst Laget Sjekket Godkj. Prosjektnr. Rev. Utg. OROrdre nr. Fag Dok.type Løpenr. Rev.
+Blad: av Entreprise:Haugen Skole
+5 9321006013 BA TI 004 0808
+03
+02
+01 12.08.2423.08.2430.08.2409.05.25
+Oppdatert som bygget fra tavlebyggerLagt til Modbus på 360.006 (side 42)Korrigert etter igangkjøringGjeldende revisjon
+ME2400ME2400SB2659
+210060132100601321006013
+010203
+010203
+Haugen Skole+01=434.0041 2 3 4 5 6 7 8 9 10 11 12 13 14
+A
+B
+C
+D
+E
+F
+G
+H
+I
+J
+K
+
+----- PAGE 6 -----
+Tittel: Erstatning for:
+Rev Dato Tekst Laget Sjekket Godkj. Prosjektnr. Rev. Utg. OROrdre nr. Fag Dok.type Løpenr. Rev.
+Blad: av Entreprise:Haugen Skole
+6 9321006013 BA TI 004 0808
+03
+02
+01 12.08.2423.08.2430.08.2409.05.25
+Oppdatert som bygget fra tavlebyggerLagt til Modbus på 360.006 (side 42)Korrigert etter igangkjøringGjeldende revisjon
+ME2400ME2400SB2659
+210060132100601321006013
+010203
+010203
+Haugen Skole+01=434.0041 2 3 4 5 6 7 8 9 10 11 12 13 14
+A
+B
+C
+D
+E
+F
+G
+H
+I
+J
+K
+
+----- PAGE 7 -----
+Hovedstrøm
+----- PAGE 8 -----
+Tittel: Erstatning for:
+Rev Dato Tekst Laget Sjekket Godkj. Prosjektnr. Rev. Utg. OROrdre nr. Fag Dok.type Løpenr. Rev.
+Blad: av Entreprise:Haugen Skole
+8 9321006013 BA TI 004 0808
+03
+02
+01 12.08.2423.08.2430.08.2409.05.25
+Oppdatert som bygget fra tavlebyggerLagt til Modbus på 360.006 (side 42)Korrigert etter igangkjøringGjeldende revisjon
+ME2400ME2400SB2659
+210060132100601321006013
+010203
+010203
+Haugen Skole+01=434.0041 2 3 4 5 6 7 8 9 10 11 12 13 14
+A
+B
+C
+D
+E
+F
+G
+H
+I
+J
+K
+----- PAGE 9 -----
+Tittel: Erstatning for:
+Rev Dato Tekst Laget Sjekket Godkj. Prosjektnr. Rev. Utg. OROrdre nr. Fag Dok.type Løpenr. Rev.
+Blad: av Entreprise:Haugen Skole
+9 9321006013 BA TI 004 0808
+03
+02
+01 12.08.2423.08.2430.08.2409.05.25
+Oppdatert som bygget fra tavlebyggerLagt til Modbus på 360.006 (side 42)Korrigert etter igangkjøringGjeldende revisjon
+ME2400ME2400SB2659
+210060132100601321006013
+010203
+010203
+Haugen Skole+01=434.0041 2 3 4 5 6 7 8 9 10 11 12 13 14
+A
+B
+C
+D
+E
+F
+G
+H
+I
+J
+K
+----- PAGE 10 -----
+Tittel: Erstatning for:
+Rev Dato Tekst Laget Sjekket Godkj. Prosjektnr. Rev. Utg. OROrdre nr. Fag Dok.type Løpenr. Rev.
+Blad: av Entreprise:Haugen Skole
+10 9321006013 BA TI 004 0808
+03
+02
+01 12.08.2423.08.2430.08.2409.05.25
+Oppdatert som bygget fra tavlebyggerLagt til Modbus på 360.006 (side 42)Korrigert etter igangkjøringGjeldende revisjon
+ME2400ME2400SB2659
+210060132100601321006013
+010203
+010203
+Haugen Skole+01=434.0041 2 3 4 5 6 7 8 9 10 11 12 13 14
+A
+B
+C
+D
+E
+F
+G
+H
+I
+J
+K
+----- PAGE 11 -----
+Tittel: Erstatning for:
+Rev Dato Tekst Laget Sjekket Godkj. Prosjektnr. Rev. Utg. OROrdre nr. Fag Dok.type Løpenr. Rev.
+Blad: av Entreprise:Haugen Skole
+11 9321006013 BA TI 004 0808
+03
+02
+01 12.08.2423.08.2430.08.2409.05.25
+Oppdatert som bygget fra tavlebyggerLagt til Modbus på 360.006 (side 42)Korrigert etter igangkjøringGjeldende revisjon
+ME2400ME2400SB2659
+210060132100601321006013
+010203
+010203
+Haugen Skole+01=434.0041 2 3 4 5 6 7 8 9 10 11 12 13 14
+A
+B
+C
+D
+E
+F
+G
+H
+I
+J
+K
+----- PAGE 12 -----
+Tittel: Erstatning for:
+Rev Dato Tekst Laget Sjekket Godkj. Prosjektnr. Rev. Utg. OROrdre nr. Fag Dok.type Løpenr. Rev.
+Blad: av Entreprise:Haugen Skole
+12 9321006013 BA TI 004 0808
+03
+02
+01 12.08.2423.08.2430.08.2409.05.25
+Oppdatert som bygget fra tavlebyggerLagt til Modbus på 360.006 (side 42)Korrigert etter igangkjøringGjeldende revisjon
+ME2400ME2400SB2659
+210060132100601321006013
+010203
+010203
+Haugen Skole+01=434.0041 2 3 4 5 6 7 8 9 10 11 12 13 14
+A
+B
+C
+D
+E
+F
+G
+H
+I
+J
+K
+----- PAGE 13 -----
+Tittel: Erstatning for:
+Rev Dato Tekst Laget Sjekket Godkj. Prosjektnr. Rev. Utg. OROrdre nr. Fag Dok.type Løpenr. Rev.
+Blad: av Entreprise:Haugen Skole
+13 9321006013 BA TI 004 0808
+03
+02
+01 12.08.2423.08.2430.08.2409.05.25
+Oppdatert som bygget fra tavlebyggerLagt til Modbus på 360.006 (side 42)Korrigert etter igangkjøringGjeldende revisjon
+ME2400ME2400SB2659
+210060132100601321006013
+010203
+010203
+Haugen Skole+01=434.0041 2 3 4 5 6 7 8 9 10 11 12 13 14
+A
+B
+C
+D
+E
+F
+G
+H
+I
+J
+K
+----- PAGE 14 -----
+Tittel: Erstatning for:
+Rev Dato Tekst Laget Sjekket Godkj. Prosjektnr. Rev. Utg. OROrdre nr. Fag Dok.type Løpenr. Rev.
+Blad: av Entreprise:Haugen Skole
+14 9321006013 BA TI 004 0808
+03
+02
+01 12.08.2423.08.2430.08.2409.05.25
+Oppdatert som bygget fra tavlebyggerLagt til Modbus på 360.006 (side 42)Korrigert etter igangkjøringGjeldende revisjon
+ME2400ME2400SB2659
+210060132100601321006013
+010203
+010203
+Haugen Skole+01=434.0041 2 3 4 5 6 7 8 9 10 11 12 13 14
+A
+B
+C
+D
+E
+F
+G
+H
+I
+J
+K
+----- PAGE 15 -----
+Tittel: Erstatning for:
+Rev Dato Tekst Laget Sjekket Godkj. Prosjektnr. Rev. Utg. OROrdre nr. Fag Dok.type Løpenr. Rev.
+Blad: av Entreprise:Haugen Skole
+15 9321006013 BA TI 004 0808
+03
+02
+01 12.08.2423.08.2430.08.2409.05.25
+Oppdatert som bygget fra tavlebyggerLagt til Modbus på 360.006 (side 42)Korrigert etter igangkjøringGjeldende revisjon
+ME2400ME2400SB2659
+210060132100601321006013
+010203
+010203
+Haugen Skole+01=434.0041 2 3 4 5 6 7 8 9 10 11 12 13 14
+A
+B
+C
+D
+E
+F
+G
+H
+I
+J
+K
+----- PAGE 16 -----
+Tittel: Erstatning for:
+Rev Dato Tekst Laget Sjekket Godkj. Prosjektnr. Rev. Utg. OROrdre nr. Fag Dok.type Løpenr. Rev.
+Blad: av Entreprise:Haugen Skole
+16 9321006013 BA TI 004 0808
+03
+02
+01 12.08.2423.08.2430.08.2409.05.25
+Oppdatert som bygget fra tavlebyggerLagt til Modbus på 360.006 (side 42)Korrigert etter igangkjøringGjeldende revisjon
+ME2400ME2400SB2659
+210060132100601321006013
+010203
+010203
+Haugen Skole+01=434.0041 2 3 4 5 6 7 8 9 10 11 12 13 14
+A
+B
+C
+D
+E
+F
+G
+H
+I
+J
+K
+----- PAGE 17 -----
+Tittel: Erstatning for:
+Rev Dato Tekst Laget Sjekket Godkj. Prosjektnr. Rev. Utg. OROrdre nr. Fag Dok.type Løpenr. Rev.
+Blad: av Entreprise:Haugen Skole
+17 9321006013 BA TI 004 0808
+03
+02
+01 12.08.2423.08.2430.08.2409.05.25
+Oppdatert som bygget fra tavlebyggerLagt til Modbus på 360.006 (side 42)Korrigert etter igangkjøringGjeldende revisjon
+ME2400ME2400SB2659
+210060132100601321006013
+010203
+010203
+Haugen Skole+01=434.0041 2 3 4 5 6 7 8 9 10 11 12 13 14
+A
+B
+C
+D
+E
+F
+G
+H
+I
+J
+K
+----- PAGE 18 -----
+Tittel: Erstatning for:
+Rev Dato Tekst Laget Sjekket Godkj. Prosjektnr. Rev. Utg. OROrdre nr. Fag Dok.type Løpenr. Rev.
+Blad: av Entreprise:Haugen Skole
+18 9321006013 BA TI 004 0808
+03
+02
+01 12.08.2423.08.2430.08.2409.05.25
+Oppdatert som bygget fra tavlebyggerLagt til Modbus på 360.006 (side 42)Korrigert etter igangkjøringGjeldende revisjon
+ME2400ME2400SB2659
+210060132100601321006013
+010203
+010203
+Haugen Skole+01=434.0041 2 3 4 5 6 7 8 9 10 11 12 13 14
+A
+B
+C
+D
+E
+F
+G
+H
+I
+J
+K
+----- PAGE 19 -----
+Tittel: Erstatning for:
+Rev Dato Tekst Laget Sjekket Godkj. Prosjektnr. Rev. Utg. OROrdre nr. Fag Dok.type Løpenr. Rev.
+Blad: av Entreprise:Haugen Skole
+19 9321006013 BA TI 004 0808
+03
+02
+01 12.08.2423.08.2430.08.2409.05.25
+Oppdatert som bygget fra tavlebyggerLagt til Modbus på 360.006 (side 42)Korrigert etter igangkjøringGjeldende revisjon
+ME2400ME2400SB2659
+210060132100601321006013
+010203
+010203
+Haugen Skole+01=434.0041 2 3 4 5 6 7 8 9 10 11 12 13 14
+A
+B
+C
+D
+E
+F
+G
+H
+I
+J
+K
+----- PAGE 20 -----
+Tittel: Erstatning for:
+Rev Dato Tekst Laget Sjekket Godkj. Prosjektnr. Rev. Utg. OROrdre nr. Fag Dok.type Løpenr. Rev.
+Blad: av Entreprise:Haugen Skole
+20 9321006013 BA TI 004 0808
+03
+02
+01 12.08.2423.08.2430.08.2409.05.25
+Oppdatert som bygget fra tavlebyggerLagt til Modbus på 360.006 (side 42)Korrigert etter igangkjøringGjeldende revisjon
+ME2400ME2400SB2659
+210060132100601321006013
+010203
+010203
+Haugen Skole+01=434.0041 2 3 4 5 6 7 8 9 10 11 12 13 14
+A
+B
+C
+D
+E
+F
+G
+H
+I
+J
+K
+----- PAGE 21 -----
+Tittel: Erstatning for:
+Rev Dato Tekst Laget Sjekket Godkj. Prosjektnr. Rev. Utg. OROrdre nr. Fag Dok.type Løpenr. Rev.
+Blad: av Entreprise:Haugen Skole
+21 9321006013 BA TI 004 0808
+03
+02
+01 12.08.2423.08.2430.08.2409.05.25
+Oppdatert som bygget fra tavlebyggerLagt til Modbus på 360.006 (side 42)Korrigert etter igangkjøringGjeldende revisjon
+ME2400ME2400SB2659
+210060132100601321006013
+010203
+010203
+Haugen Skole+01=434.0041 2 3 4 5 6 7 8 9 10 11 12 13 14
+A
+B
+C
+D
+E
+F
+G
+H
+I
+J
+K
+----- PAGE 22 -----
+OU006
+----- PAGE 23 -----
+Tittel: Erstatning for:
+Rev Dato Tekst Laget Sjekket Godkj. Prosjektnr. Rev. Utg. OROrdre nr. Fag Dok.type Løpenr. Rev.
+Blad: av Entreprise:Haugen Skole
+23 9321006013 BA TI 004 0808
+03
+02
+01 12.08.2423.08.2430.08.2409.05.25
+Oppdatert som bygget fra tavlebyggerLagt til Modbus på 360.006 (side 42)Korrigert etter igangkjøringGjeldende revisjon
+ME2400ME2400SB2659
+210060132100601321006013
+010203
+010203
+Haugen Skole+01=434.0041 2 3 4 5 6 7 8 9 10 11 12 13 14
+A
+B
+C
+D
+E
+F
+G
+H
+I
+J
+KBrukes ved behov
+ISLAND BUSISLAND BUS
+-XT001:24V -XT001:24V
+-XT001:24V0 -XT001:24V0ISLAND BUSISLAND BUSETHERN.3
+ISLAND BUS
+ISLAND BUSISLAND BUS
+ISLAND BUSISLAND BUS
+Brukes ved behov
+----- PAGE 24 -----
+Tittel: Erstatning for:
+Rev Dato Tekst Laget Sjekket Godkj. Prosjektnr. Rev. Utg. OROrdre nr. Fag Dok.type Løpenr. Rev.
+Blad: av Entreprise:Haugen Skole
+24 9321006013 BA TI 004 0808
+03
+02
+01 12.08.2423.08.2430.08.2409.05.25
+Oppdatert som bygget fra tavlebyggerLagt til Modbus på 360.006 (side 42)Korrigert etter igangkjøringGjeldende revisjon
+ME2400ME2400SB2659
+210060132100601321006013
+010203
+010203
+Haugen Skole+01=434.0041 2 3 4 5 6 7 8 9 10 11 12 13 14
+A
+B
+C
+D
+E
+F
+G
+H
+I
+J
+K
+----- PAGE 25 -----
+Tittel: Erstatning for:
+Rev Dato Tekst Laget Sjekket Godkj. Prosjektnr. Rev. Utg. OROrdre nr. Fag Dok.type Løpenr. Rev.
+Blad: av Entreprise:Haugen Skole
+25 9321006013 BA TI 004 0808
+03
+02
+01 12.08.2423.08.2430.08.2409.05.25
+Oppdatert som bygget fra tavlebyggerLagt til Modbus på 360.006 (side 42)Korrigert etter igangkjøringGjeldende revisjon
+ME2400ME2400SB2659
+210060132100601321006013
+010203
+010203
+Haugen Skole+01=434.0041 2 3 4 5 6 7 8 9 10 11 12 13 14
+A
+B
+C
+D
+E
+F
+G
+H
+I
+J
+K
+----- PAGE 26 -----
+Tittel: Erstatning for:
+Rev Dato Tekst Laget Sjekket Godkj. Prosjektnr. Rev. Utg. OROrdre nr. Fag Dok.type Løpenr. Rev.
+Blad: av Entreprise:Haugen Skole
+26 9321006013 BA TI 004 0808
+03
+02
+01 12.08.2423.08.2430.08.2409.05.25
+Oppdatert som bygget fra tavlebyggerLagt til Modbus på 360.006 (side 42)Korrigert etter igangkjøringGjeldende revisjon
+ME2400ME2400SB2659
+210060132100601321006013
+010203
+010203
+Haugen Skole+01=434.0041 2 3 4 5 6 7 8 9 10 11 12 13 14
+A
+B
+C
+D
+E
+F
+G
+H
+I
+J
+K
+----- PAGE 27 -----
+Tittel: Erstatning for:
+Rev Dato Tekst Laget Sjekket Godkj. Prosjektnr. Rev. Utg. OROrdre nr. Fag Dok.type Løpenr. Rev.
+Blad: av Entreprise:Haugen Skole
+27 9321006013 BA TI 004 0808
+03
+02
+01 12.08.2423.08.2430.08.2409.05.25
+Oppdatert som bygget fra tavlebyggerLagt til Modbus på 360.006 (side 42)Korrigert etter igangkjøringGjeldende revisjon
+ME2400ME2400SB2659
+210060132100601321006013
+010203
+010203
+Haugen Skole+01=434.0041 2 3 4 5 6 7 8 9 10 11 12 13 14
+A
+B
+C
+D
+E
+F
+G
+H
+I
+J
+K
+----- PAGE 28 -----
+Tittel: Erstatning for:
+Rev Dato Tekst Laget Sjekket Godkj. Prosjektnr. Rev. Utg. OROrdre nr. Fag Dok.type Løpenr. Rev.
+Blad: av Entreprise:Haugen Skole
+28 9321006013 BA TI 004 0808
+03
+02
+01 12.08.2423.08.2430.08.2409.05.25
+Oppdatert som bygget fra tavlebyggerLagt til Modbus på 360.006 (side 42)Korrigert etter igangkjøringGjeldende revisjon
+ME2400ME2400SB2659
+210060132100601321006013
+010203
+010203
+Haugen Skole+01=434.0041 2 3 4 5 6 7 8 9 10 11 12 13 14
+A
+B
+C
+D
+E
+F
+G
+H
+I
+J
+K
+----- PAGE 29 -----
+Tittel: Erstatning for:
+Rev Dato Tekst Laget Sjekket Godkj. Prosjektnr. Rev. Utg. OROrdre nr. Fag Dok.type Løpenr. Rev.
+Blad: av Entreprise:Haugen Skole
+29 9321006013 BA TI 004 0808
+03
+02
+01 12.08.2423.08.2430.08.2409.05.25
+Oppdatert som bygget fra tavlebyggerLagt til Modbus på 360.006 (side 42)Korrigert etter igangkjøringGjeldende revisjon
+ME2400ME2400SB2659
+210060132100601321006013
+010203
+010203
+Haugen Skole+01=434.0041 2 3 4 5 6 7 8 9 10 11 12 13 14
+A
+B
+C
+D
+E
+F
+G
+H
+I
+J
+K
+----- PAGE 30 -----
+Tittel: Erstatning for:
+Rev Dato Tekst Laget Sjekket Godkj. Prosjektnr. Rev. Utg. OROrdre nr. Fag Dok.type Løpenr. Rev.
+Blad: av Entreprise:Haugen Skole
+30 9321006013 BA TI 004 0808
+03
+02
+01 12.08.2423.08.2430.08.2409.05.25
+Oppdatert som bygget fra tavlebyggerLagt til Modbus på 360.006 (side 42)Korrigert etter igangkjøringGjeldende revisjon
+ME2400ME2400SB2659
+210060132100601321006013
+010203
+010203
+Haugen Skole+01=434.0041 2 3 4 5 6 7 8 9 10 11 12 13 14
+A
+B
+C
+D
+E
+F
+G
+H
+I
+J
+K
+A1 A2 A1 A2-XK010
+/10.9
+A1 A2 A1 A2-XK016
+/12.3
+/44.3
+----- PAGE 31 -----
+Tittel: Erstatning for:
+Rev Dato Tekst Laget Sjekket Godkj. Prosjektnr. Rev. Utg. OROrdre nr. Fag Dok.type Løpenr. Rev.
+Blad: av Entreprise:Haugen Skole
+31 9321006013 BA TI 004 0808
+03
+02
+01 12.08.2423.08.2430.08.2409.05.25
+Oppdatert som bygget fra tavlebyggerLagt til Modbus på 360.006 (side 42)Korrigert etter igangkjøringGjeldende revisjon
+ME2400ME2400SB2659
+210060132100601321006013
+010203
+010203
+Haugen Skole+01=434.0041 2 3 4 5 6 7 8 9 10 11 12 13 14
+A
+B
+C
+D
+E
+F
+G
+H
+I
+J
+K┴↕┴↕┴↕┴↕┴↕┴↕┴↕┴↕ ~ ~ ~ ~
+----- PAGE 32 -----
+Tittel: Erstatning for:
+Rev Dato Tekst Laget Sjekket Godkj. Prosjektnr. Rev. Utg. OROrdre nr. Fag Dok.type Løpenr. Rev.
+Blad: av Entreprise:Haugen Skole
+32 9321006013 BA TI 004 0808
+03
+02
+01 12.08.2423.08.2430.08.2409.05.25
+Oppdatert som bygget fra tavlebyggerLagt til Modbus på 360.006 (side 42)Korrigert etter igangkjøringGjeldende revisjon
+ME2400ME2400SB2659
+210060132100601321006013
+010203
+010203
+Haugen Skole+01=434.0041 2 3 4 5 6 7 8 9 10 11 12 13 14
+A
+B
+C
+D
+E
+F
+G
+H
+I
+J
+K┴↕┴↕┴↕┴↕┴↕┴↕┴↕┴↕ ~ ~ ~ ~
+----- PAGE 33 -----
+Tittel: Erstatning for:
+Rev Dato Tekst Laget Sjekket Godkj. Prosjektnr. Rev. Utg. OROrdre nr. Fag Dok.type Løpenr. Rev.
+Blad: av Entreprise:Haugen Skole
+33 9321006013 BA TI 004 0808
+03
+02
+01 12.08.2423.08.2430.08.2409.05.25
+Oppdatert som bygget fra tavlebyggerLagt til Modbus på 360.006 (side 42)Korrigert etter igangkjøringGjeldende revisjon
+ME2400ME2400SB2659
+210060132100601321006013
+010203
+010203
+Haugen Skole+01=434.0041 2 3 4 5 6 7 8 9 10 11 12 13 14
+A
+B
+C
+D
+E
+F
+G
+H
+I
+J
+K┴↕┴↕┴↕┴↕┴↕┴↕┴↕┴↕ ~ ~ ~ ~
+----- PAGE 34 -----
+Tittel: Erstatning for:
+Rev Dato Tekst Laget Sjekket Godkj. Prosjektnr. Rev. Utg. OROrdre nr. Fag Dok.type Løpenr. Rev.
+Blad: av Entreprise:Haugen Skole
+34 9321006013 BA TI 004 0808
+03
+02
+01 12.08.2423.08.2430.08.2409.05.25
+Oppdatert som bygget fra tavlebyggerLagt til Modbus på 360.006 (side 42)Korrigert etter igangkjøringGjeldende revisjon
+ME2400ME2400SB2659
+210060132100601321006013
+010203
+010203
+Haugen Skole+01=434.0041 2 3 4 5 6 7 8 9 10 11 12 13 14
+A
+B
+C
+D
+E
+F
+G
+H
+I
+J
+K┴↕┴↕┴↕┴↕┴↕┴↕┴↕┴↕ ~ ~ ~ ~
+----- PAGE 35 -----
+Tittel: Erstatning for:
+Rev Dato Tekst Laget Sjekket Godkj. Prosjektnr. Rev. Utg. OROrdre nr. Fag Dok.type Løpenr. Rev.
+Blad: av Entreprise:Haugen Skole
+35 9321006013 BA TI 004 0808
+03
+02
+01 12.08.2423.08.2430.08.2409.05.25
+Oppdatert som bygget fra tavlebyggerLagt til Modbus på 360.006 (side 42)Korrigert etter igangkjøringGjeldende revisjon
+ME2400ME2400SB2659
+210060132100601321006013
+010203
+010203
+Haugen Skole+01=434.0041 2 3 4 5 6 7 8 9 10 11 12 13 14
+A
+B
+C
+D
+E
+F
+G
+H
+I
+J
+K┴↕┴↕┴↕┴↕┴↕┴↕┴↕┴↕ ~ ~ ~ ~
+----- PAGE 36 -----
+Tittel: Erstatning for:
+Rev Dato Tekst Laget Sjekket Godkj. Prosjektnr. Rev. Utg. OROrdre nr. Fag Dok.type Løpenr. Rev.
+Blad: av Entreprise:Haugen Skole
+36 9321006013 BA TI 004 0808
+03
+02
+01 12.08.2423.08.2430.08.2409.05.25
+Oppdatert som bygget fra tavlebyggerLagt til Modbus på 360.006 (side 42)Korrigert etter igangkjøringGjeldende revisjon
+ME2400ME2400SB2659
+210060132100601321006013
+010203
+010203
+Haugen Skole+01=434.0041 2 3 4 5 6 7 8 9 10 11 12 13 14
+A
+B
+C
+D
+E
+F
+G
+H
+I
+J
+K┴↕┴↕┴↕┴↕┴↕┴↕┴↕┴↕ ~ ~ ~ ~
+----- PAGE 37 -----
+Tittel: Erstatning for:
+Rev Dato Tekst Laget Sjekket Godkj. Prosjektnr. Rev. Utg. OROrdre nr. Fag Dok.type Løpenr. Rev.
+Blad: av Entreprise:Haugen Skole
+37 9321006013 BA TI 004 0808
+03
+02
+01 12.08.2423.08.2430.08.2409.05.25
+Oppdatert som bygget fra tavlebyggerLagt til Modbus på 360.006 (side 42)Korrigert etter igangkjøringGjeldende revisjon
+ME2400ME2400SB2659
+210060132100601321006013
+010203
+010203
+Haugen Skole+01=434.0041 2 3 4 5 6 7 8 9 10 11 12 13 14
+A
+B
+C
+D
+E
+F
+G
+H
+I
+J
+K┴↕┴↕┴↕┴↕┴↕┴↕┴↕┴↕ ~ ~ ~ ~
+----- PAGE 38 -----
+Tittel: Erstatning for:
+Rev Dato Tekst Laget Sjekket Godkj. Prosjektnr. Rev. Utg. OROrdre nr. Fag Dok.type Løpenr. Rev.
+Blad: av Entreprise:Haugen Skole
+38 9321006013 BA TI 004 0808
+03
+02
+01 12.08.2423.08.2430.08.2409.05.25
+Oppdatert som bygget fra tavlebyggerLagt til Modbus på 360.006 (side 42)Korrigert etter igangkjøringGjeldende revisjon
+ME2400ME2400SB2659
+210060132100601321006013
+010203
+010203
+Haugen Skole+01=434.0041 2 3 4 5 6 7 8 9 10 11 12 13 14
+A
+B
+C
+D
+E
+F
+G
+H
+I
+J
+K┴↑┴↑┴↑┴↑┴↑┴↑┴↑┴↑
+----- PAGE 39 -----
+Tittel: Erstatning for:
+Rev Dato Tekst Laget Sjekket Godkj. Prosjektnr. Rev. Utg. OROrdre nr. Fag Dok.type Løpenr. Rev.
+Blad: av Entreprise:Haugen Skole
+39 9321006013 BA TI 004 0808
+03
+02
+01 12.08.2423.08.2430.08.2409.05.25
+Oppdatert som bygget fra tavlebyggerLagt til Modbus på 360.006 (side 42)Korrigert etter igangkjøringGjeldende revisjon
+ME2400ME2400SB2659
+210060132100601321006013
+010203
+010203
+Haugen Skole+01=434.0041 2 3 4 5 6 7 8 9 10 11 12 13 14
+A
+B
+C
+D
+E
+F
+G
+H
+I
+J
+K┴↑┴↑┴↑┴↑┴↑┴↑┴↑┴↑
+----- PAGE 40 -----
+Tittel: Erstatning for:
+Rev Dato Tekst Laget Sjekket Godkj. Prosjektnr. Rev. Utg. OROrdre nr. Fag Dok.type Løpenr. Rev.
+Blad: av Entreprise:Haugen Skole
+40 9321006013 BA TI 004 0808
+03
+02
+01 12.08.2423.08.2430.08.2409.05.25
+Oppdatert som bygget fra tavlebyggerLagt til Modbus på 360.006 (side 42)Korrigert etter igangkjøringGjeldende revisjon
+ME2400ME2400SB2659
+210060132100601321006013
+010203
+010203
+Haugen Skole+01=434.0041 2 3 4 5 6 7 8 9 10 11 12 13 14
+A
+B
+C
+D
+E
+F
+G
+H
+I
+J
+K┴↑┴↑┴↑┴↑┴↑┴↑┴↑┴↑
+----- PAGE 41 -----
+Tittel: Erstatning for:
+Rev Dato Tekst Laget Sjekket Godkj. Prosjektnr. Rev. Utg. OROrdre nr. Fag Dok.type Løpenr. Rev.
+Blad: av Entreprise:Haugen Skole
+41 9321006013 BA TI 004 0808
+03
+02
+01 12.08.2423.08.2430.08.2409.05.25
+Oppdatert som bygget fra tavlebyggerLagt til Modbus på 360.006 (side 42)Korrigert etter igangkjøringGjeldende revisjon
+ME2400ME2400SB2659
+210060132100601321006013
+010203
+010203
+Haugen Skole+01=434.0041 2 3 4 5 6 7 8 9 10 11 12 13 14
+A
+B
+C
+D
+E
+F
+G
+H
+I
+J
+K┴↑┴↑┴↑┴↑┴↑┴↑┴↑┴↑
+----- PAGE 42 -----
+Tittel: Erstatning for:
+Rev Dato Tekst Laget Sjekket Godkj. Prosjektnr. Rev. Utg. OROrdre nr. Fag Dok.type Løpenr. Rev.
+Blad: av Entreprise:Haugen Skole
+42 9321006013 BA TI 004 0808
+03
+02
+01 12.08.2423.08.2430.08.2409.05.25
+Oppdatert som bygget fra tavlebyggerLagt til Modbus på 360.006 (side 42)Korrigert etter igangkjøringGjeldende revisjon
+ME2400ME2400SB2659
+210060132100601321006013
+010203
+010203
+Haugen Skole+01=434.0041 2 3 4 5 6 7 8 9 10 11 12 13 14
+A
+B
+C
+D
+E
+F
+G
+H
+I
+J
+K┴↑┴↑┴↑┴↑┴↑┴↑┴↑┴↑
+----- PAGE 43 -----
+Tittel: Erstatning for:
+Rev Dato Tekst Laget Sjekket Godkj. Prosjektnr. Rev. Utg. OROrdre nr. Fag Dok.type Løpenr. Rev.
+Blad: av Entreprise:Haugen Skole
+43 9321006013 BA TI 004 0808
+03
+02
+01 12.08.2423.08.2430.08.2409.05.25
+Oppdatert som bygget fra tavlebyggerLagt til Modbus på 360.006 (side 42)Korrigert etter igangkjøringGjeldende revisjon
+ME2400ME2400SB2659
+210060132100601321006013
+010203
+010203
+Haugen Skole+01=434.0041 2 3 4 5 6 7 8 9 10 11 12 13 14
+A
+B
+C
+D
+E
+F
+G
+H
+I
+J
+K┴↑┴↑┴↑┴↑┴↑┴↑┴↑┴↑
+----- PAGE 44 -----
+Tittel: Erstatning for:
+Rev Dato Tekst Laget Sjekket Godkj. Prosjektnr. Rev. Utg. OROrdre nr. Fag Dok.type Løpenr. Rev.
+Blad: av Entreprise:Haugen Skole
+44 9321006013 BA TI 004 0808
+03
+02
+01 12.08.2423.08.2430.08.2409.05.25
+Oppdatert som bygget fra tavlebyggerLagt til Modbus på 360.006 (side 42)Korrigert etter igangkjøringGjeldende revisjon
+ME2400ME2400SB2659
+210060132100601321006013
+010203
+010203
+Haugen Skole+01=434.0041 2 3 4 5 6 7 8 9 10 11 12 13 14
+A
+B
+C
+D
+E
+F
+G
+H
+I
+J
+K┴↑┴↑┴↑┴↑┴↑┴↑┴↑┴↑
+----- PAGE 45 -----
+Tittel: Erstatning for:
+Rev Dato Tekst Laget Sjekket Godkj. Prosjektnr. Rev. Utg. OROrdre nr. Fag Dok.type Løpenr. Rev.
+Blad: av Entreprise:Haugen Skole
+45 9321006013 BA TI 004 0808
+03
+02
+01 12.08.2423.08.2430.08.2409.05.25
+Oppdatert som bygget fra tavlebyggerLagt til Modbus på 360.006 (side 42)Korrigert etter igangkjøringGjeldende revisjon
+ME2400ME2400SB2659
+210060132100601321006013
+010203
+010203
+Haugen Skole+01=434.0041 2 3 4 5 6 7 8 9 10 11 12 13 14
+A
+B
+C
+D
+E
+F
+G
+H
+I
+J
+K┴↑┴↑┴↑┴↑┴↑┴↑┴↑┴↑
+----- PAGE 46 -----
+Tittel: Erstatning for:
+Rev Dato Tekst Laget Sjekket Godkj. Prosjektnr. Rev. Utg. OROrdre nr. Fag Dok.type Løpenr. Rev.
+Blad: av Entreprise:Haugen Skole
+46 9321006013 BA TI 004 0808
+03
+02
+01 12.08.2423.08.2430.08.2409.05.25
+Oppdatert som bygget fra tavlebyggerLagt til Modbus på 360.006 (side 42)Korrigert etter igangkjøringGjeldende revisjon
+ME2400ME2400SB2659
+210060132100601321006013
+010203
+010203
+Haugen Skole+01=434.0041 2 3 4 5 6 7 8 9 10 11 12 13 14
+A
+B
+C
+D
+E
+F
+G
+H
+I
+J
+K┴↑┴↑┴↑┴↑┴↑┴↑┴↑┴↑
+----- PAGE 47 -----
+Tittel: Erstatning for:
+Rev Dato Tekst Laget Sjekket Godkj. Prosjektnr. Rev. Utg. OROrdre nr. Fag Dok.type Løpenr. Rev.
+Blad: av Entreprise:Haugen Skole
+47 9321006013 BA TI 004 0808
+03
+02
+01 12.08.2423.08.2430.08.2409.05.25
+Oppdatert som bygget fra tavlebyggerLagt til Modbus på 360.006 (side 42)Korrigert etter igangkjøringGjeldende revisjon
+ME2400ME2400SB2659
+210060132100601321006013
+010203
+010203
+Haugen Skole+01=434.0041 2 3 4 5 6 7 8 9 10 11 12 13 14
+A
+B
+C
+D
+E
+F
+G
+H
+I
+J
+K┴↑┴↑┴↑┴↑┴↑┴↑┴↑┴↑
+----- PAGE 48 -----
+Tittel: Erstatning for:
+Rev Dato Tekst Laget Sjekket Godkj. Prosjektnr. Rev. Utg. OROrdre nr. Fag Dok.type Løpenr. Rev.
+Blad: av Entreprise:Haugen Skole
+48 9321006013 BA TI 004 0808
+03
+02
+01 12.08.2423.08.2430.08.2409.05.25
+Oppdatert som bygget fra tavlebyggerLagt til Modbus på 360.006 (side 42)Korrigert etter igangkjøringGjeldende revisjon
+ME2400ME2400SB2659
+210060132100601321006013
+010203
+010203
+Haugen Skole+01=434.0041 2 3 4 5 6 7 8 9 10 11 12 13 14
+A
+B
+C
+D
+E
+F
+G
+H
+I
+J
+K┴↑┴↑┴↑┴↑┴↑┴↑┴↑┴↑
+----- PAGE 49 -----
+Tittel: Erstatning for:
+Rev Dato Tekst Laget Sjekket Godkj. Prosjektnr. Rev. Utg. OROrdre nr. Fag Dok.type Løpenr. Rev.
+Blad: av Entreprise:Haugen Skole
+49 9321006013 BA TI 004 0808
+03
+02
+01 12.08.2423.08.2430.08.2409.05.25
+Oppdatert som bygget fra tavlebyggerLagt til Modbus på 360.006 (side 42)Korrigert etter igangkjøringGjeldende revisjon
+ME2400ME2400SB2659
+210060132100601321006013
+010203
+010203
+Haugen Skole+01=434.0041 2 3 4 5 6 7 8 9 10 11 12 13 14
+A
+B
+C
+D
+E
+F
+G
+H
+I
+J
+K┴↑┴↑┴↑┴↑┴↑┴↑┴↑┴↑
+----- PAGE 50 -----
+Tittel: Erstatning for:
+Rev Dato Tekst Laget Sjekket Godkj. Prosjektnr. Rev. Utg. OROrdre nr. Fag Dok.type Løpenr. Rev.
+Blad: av Entreprise:Haugen Skole
+50 9321006013 BA TI 004 0808
+03
+02
+01 12.08.2423.08.2430.08.2409.05.25
+Oppdatert som bygget fra tavlebyggerLagt til Modbus på 360.006 (side 42)Korrigert etter igangkjøringGjeldende revisjon
+ME2400ME2400SB2659
+210060132100601321006013
+010203
+010203
+Haugen Skole+01=434.0041 2 3 4 5 6 7 8 9 10 11 12 13 14
+A
+B
+C
+D
+E
+F
+G
+H
+I
+J
+K┴↑┴↑┴↑┴↑┴↑┴↑┴↑┴↑
+----- PAGE 51 -----
+Tittel: Erstatning for:
+Rev Dato Tekst Laget Sjekket Godkj. Prosjektnr. Rev. Utg. OROrdre nr. Fag Dok.type Løpenr. Rev.
+Blad: av Entreprise:Haugen Skole
+51 9321006013 BA TI 004 0808
+03
+02
+01 12.08.2423.08.2430.08.2409.05.25
+Oppdatert som bygget fra tavlebyggerLagt til Modbus på 360.006 (side 42)Korrigert etter igangkjøringGjeldende revisjon
+ME2400ME2400SB2659
+210060132100601321006013
+010203
+010203
+Haugen Skole+01=434.0041 2 3 4 5 6 7 8 9 10 11 12 13 14
+A
+B
+C
+D
+E
+F
+G
+H
+I
+J
+K┴↑┴↑┴↑┴↑┴↑┴↑┴↑┴↑
+----- PAGE 52 -----
+Tittel: Erstatning for:
+Rev Dato Tekst Laget Sjekket Godkj. Prosjektnr. Rev. Utg. OROrdre nr. Fag Dok.type Løpenr. Rev.
+Blad: av Entreprise:Haugen Skole
+52 9321006013 BA TI 004 0808
+03
+02
+01 12.08.2423.08.2430.08.2409.05.25
+Oppdatert som bygget fra tavlebyggerLagt til Modbus på 360.006 (side 42)Korrigert etter igangkjøringGjeldende revisjon
+ME2400ME2400SB2659
+210060132100601321006013
+010203
+010203
+Haugen Skole+01=434.0041 2 3 4 5 6 7 8 9 10 11 12 13 14
+A
+B
+C
+D
+E
+F
+G
+H
+I
+J
+K┴↑┴↑┴↑┴↑┴↑┴↑┴↑┴↑
+----- PAGE 53 -----
+Tittel: Erstatning for:
+Rev Dato Tekst Laget Sjekket Godkj. Prosjektnr. Rev. Utg. OROrdre nr. Fag Dok.type Løpenr. Rev.
+Blad: av Entreprise:Haugen Skole
+53 9321006013 BA TI 004 0808
+03
+02
+01 12.08.2423.08.2430.08.2409.05.25
+Oppdatert som bygget fra tavlebyggerLagt til Modbus på 360.006 (side 42)Korrigert etter igangkjøringGjeldende revisjon
+ME2400ME2400SB2659
+210060132100601321006013
+010203
+010203
+Haugen Skole+01=434.0041 2 3 4 5 6 7 8 9 10 11 12 13 14
+A
+B
+C
+D
+E
+F
+G
+H
+I
+J
+K┴↑┴↑┴↑┴↑┴↑┴↑┴↑┴↑
+----- PAGE 54 -----
+OU005
+----- PAGE 55 -----
+Tittel: Erstatning for:
+Rev Dato Tekst Laget Sjekket Godkj. Prosjektnr. Rev. Utg. OROrdre nr. Fag Dok.type Løpenr. Rev.
+Blad: av Entreprise:Haugen Skole
+54 9321006013 BA TI 004 0808
+03
+02
+01 12.08.2423.08.2430.08.2409.05.25
+Oppdatert som bygget fra tavlebyggerLagt til Modbus på 360.006 (side 42)Korrigert etter igangkjøringGjeldende revisjon
+ME2400ME2400SB2659
+210060132100601321006013
+010203
+010203
+Haugen Skole+01=434.0041 2 3 4 5 6 7 8 9 10 11 12 13 14
+A
+B
+C
+D
+E
+F
+G
+H
+I
+J
+K
+ISLAND BUSISLAND BUS
+-XT002:24V
+-XT002:24V0
+ETHERN.1↓ ↓ ↓ ↓
+ISLAND BUS
+↓ ↓ ↓ ↓
+----- PAGE 56 -----
+Tittel: Erstatning for:
+Rev Dato Tekst Laget Sjekket Godkj. Prosjektnr. Rev. Utg. OROrdre nr. Fag Dok.type Løpenr. Rev.
+Blad: av Entreprise:Haugen Skole
+55 9321006013 BA TI 004 0808
+03
+02
+01 12.08.2423.08.2430.08.2409.05.25
+Oppdatert som bygget fra tavlebyggerLagt til Modbus på 360.006 (side 42)Korrigert etter igangkjøringGjeldende revisjon
+ME2400ME2400SB2659
+210060132100601321006013
+010203
+010203
+Haugen Skole+01=434.0041 2 3 4 5 6 7 8 9 10 11 12 13 14
+A
+B
+C
+D
+E
+F
+G
+H
+I
+J
+K
+----- PAGE 57 -----
+Tittel: Erstatning for:
+Rev Dato Tekst Laget Sjekket Godkj. Prosjektnr. Rev. Utg. OROrdre nr. Fag Dok.type Løpenr. Rev.
+Blad: av Entreprise:Haugen Skole
+56 9321006013 BA TI 004 0808
+03
+02
+01 12.08.2423.08.2430.08.2409.05.25
+Oppdatert som bygget fra tavlebyggerLagt til Modbus på 360.006 (side 42)Korrigert etter igangkjøringGjeldende revisjon
+ME2400ME2400SB2659
+210060132100601321006013
+010203
+010203
+Haugen Skole+01=434.0041 2 3 4 5 6 7 8 9 10 11 12 13 14
+A
+B
+C
+D
+E
+F
+G
+H
+I
+J
+K
+----- PAGE 58 -----
+Tittel: Erstatning for:
+Rev Dato Tekst Laget Sjekket Godkj. Prosjektnr. Rev. Utg. OROrdre nr. Fag Dok.type Løpenr. Rev.
+Blad: av Entreprise:Haugen Skole
+57 9321006013 BA TI 004 0808
+03
+02
+01 12.08.2423.08.2430.08.2409.05.25
+Oppdatert som bygget fra tavlebyggerLagt til Modbus på 360.006 (side 42)Korrigert etter igangkjøringGjeldende revisjon
+ME2400ME2400SB2659
+210060132100601321006013
+010203
+010203
+Haugen Skole+01=434.0041 2 3 4 5 6 7 8 9 10 11 12 13 14
+A
+B
+C
+D
+E
+F
+G
+H
+I
+J
+K
+----- PAGE 59 -----
+Tittel: Erstatning for:
+Rev Dato Tekst Laget Sjekket Godkj. Prosjektnr. Rev. Utg. OROrdre nr. Fag Dok.type Løpenr. Rev.
+Blad: av Entreprise:Haugen Skole
+58 9321006013 BA TI 004 0808
+03
+02
+01 12.08.2423.08.2430.08.2409.05.25
+Oppdatert som bygget fra tavlebyggerLagt til Modbus på 360.006 (side 42)Korrigert etter igangkjøringGjeldende revisjon
+ME2400ME2400SB2659
+210060132100601321006013
+010203
+010203
+Haugen Skole+01=434.0041 2 3 4 5 6 7 8 9 10 11 12 13 14
+A
+B
+C
+D
+E
+F
+G
+H
+I
+J
+K┴↕┴↕┴↕┴↕┴↕┴↕┴↕┴↕ ~ ~ ~ ~
+----- PAGE 60 -----
+Tittel: Erstatning for:
+Rev Dato Tekst Laget Sjekket Godkj. Prosjektnr. Rev. Utg. OROrdre nr. Fag Dok.type Løpenr. Rev.
+Blad: av Entreprise:Haugen Skole
+59 9321006013 BA TI 004 0808
+03
+02
+01 12.08.2423.08.2430.08.2409.05.25
+Oppdatert som bygget fra tavlebyggerLagt til Modbus på 360.006 (side 42)Korrigert etter igangkjøringGjeldende revisjon
+ME2400ME2400SB2659
+210060132100601321006013
+010203
+010203
+Haugen Skole+01=434.0041 2 3 4 5 6 7 8 9 10 11 12 13 14
+A
+B
+C
+D
+E
+F
+G
+H
+I
+J
+K┴↕┴↕┴↕┴↕┴↕┴↕┴↕┴↕ ~ ~ ~ ~
+----- PAGE 61 -----
+Tittel: Erstatning for:
+Rev Dato Tekst Laget Sjekket Godkj. Prosjektnr. Rev. Utg. OROrdre nr. Fag Dok.type Løpenr. Rev.
+Blad: av Entreprise:Haugen Skole
+60 9321006013 BA TI 004 0808
+03
+02
+01 12.08.2423.08.2430.08.2409.05.25
+Oppdatert som bygget fra tavlebyggerLagt til Modbus på 360.006 (side 42)Korrigert etter igangkjøringGjeldende revisjon
+ME2400ME2400SB2659
+210060132100601321006013
+010203
+010203
+Haugen Skole+01=434.0041 2 3 4 5 6 7 8 9 10 11 12 13 14
+A
+B
+C
+D
+E
+F
+G
+H
+I
+J
+K┴↕┴↕┴↕┴↕┴↕┴↕┴↕┴↕ ~ ~ ~ ~
+----- PAGE 62 -----
+Tittel: Erstatning for:
+Rev Dato Tekst Laget Sjekket Godkj. Prosjektnr. Rev. Utg. OROrdre nr. Fag Dok.type Løpenr. Rev.
+Blad: av Entreprise:Haugen Skole
+61 9321006013 BA TI 004 0808
+03
+02
+01 12.08.2423.08.2430.08.2409.05.25
+Oppdatert som bygget fra tavlebyggerLagt til Modbus på 360.006 (side 42)Korrigert etter igangkjøringGjeldende revisjon
+ME2400ME2400SB2659
+210060132100601321006013
+010203
+010203
+Haugen Skole+01=434.0041 2 3 4 5 6 7 8 9 10 11 12 13 14
+A
+B
+C
+D
+E
+F
+G
+H
+I
+J
+K┴↕┴↕┴↕┴↕┴↕┴↕┴↕┴↕ ~ ~ ~ ~
+----- PAGE 63 -----
+Tittel: Erstatning for:
+Rev Dato Tekst Laget Sjekket Godkj. Prosjektnr. Rev. Utg. OROrdre nr. Fag Dok.type Løpenr. Rev.
+Blad: av Entreprise:Haugen Skole
+62 9321006013 BA TI 004 0808
+03
+02
+01 12.08.2423.08.2430.08.2409.05.25
+Oppdatert som bygget fra tavlebyggerLagt til Modbus på 360.006 (side 42)Korrigert etter igangkjøringGjeldende revisjon
+ME2400ME2400SB2659
+210060132100601321006013
+010203
+010203
+Haugen Skole+01=434.0041 2 3 4 5 6 7 8 9 10 11 12 13 14
+A
+B
+C
+D
+E
+F
+G
+H
+I
+J
+K┴↑┴↑┴↑┴↑┴↑┴↑┴↑┴↑
+----- PAGE 64 -----
+Tittel: Erstatning for:
+Rev Dato Tekst Laget Sjekket Godkj. Prosjektnr. Rev. Utg. OROrdre nr. Fag Dok.type Løpenr. Rev.
+Blad: av Entreprise:Haugen Skole
+63 9321006013 BA TI 004 0808
+03
+02
+01 12.08.2423.08.2430.08.2409.05.25
+Oppdatert som bygget fra tavlebyggerLagt til Modbus på 360.006 (side 42)Korrigert etter igangkjøringGjeldende revisjon
+ME2400ME2400SB2659
+210060132100601321006013
+010203
+010203
+Haugen Skole+01=434.0041 2 3 4 5 6 7 8 9 10 11 12 13 14
+A
+B
+C
+D
+E
+F
+G
+H
+I
+J
+K┴↑┴↑┴↑┴↑┴↑┴↑┴↑┴↑
+----- PAGE 65 -----
+Tittel: Erstatning for:
+Rev Dato Tekst Laget Sjekket Godkj. Prosjektnr. Rev. Utg. OROrdre nr. Fag Dok.type Løpenr. Rev.
+Blad: av Entreprise:Haugen Skole
+64 9321006013 BA TI 004 0808
+03
+02
+01 12.08.2423.08.2430.08.2409.05.25
+Oppdatert som bygget fra tavlebyggerLagt til Modbus på 360.006 (side 42)Korrigert etter igangkjøringGjeldende revisjon
+ME2400ME2400SB2659
+210060132100601321006013
+010203
+010203
+Haugen Skole+01=434.0041 2 3 4 5 6 7 8 9 10 11 12 13 14
+A
+B
+C
+D
+E
+F
+G
+H
+I
+J
+K┴↑┴↑┴↑┴↑┴↑┴↑┴↑┴↑
+----- PAGE 66 -----
+Tittel: Erstatning for:
+Rev Dato Tekst Laget Sjekket Godkj. Prosjektnr. Rev. Utg. OROrdre nr. Fag Dok.type Løpenr. Rev.
+Blad: av Entreprise:Haugen Skole
+65 9321006013 BA TI 004 0808
+03
+02
+01 12.08.2423.08.2430.08.2409.05.25
+Oppdatert som bygget fra tavlebyggerLagt til Modbus på 360.006 (side 42)Korrigert etter igangkjøringGjeldende revisjon
+ME2400ME2400SB2659
+210060132100601321006013
+010203
+010203
+Haugen Skole+01=434.0041 2 3 4 5 6 7 8 9 10 11 12 13 14
+A
+B
+C
+D
+E
+F
+G
+H
+I
+J
+K┴↑┴↑┴↑┴↑┴↑┴↑┴↑┴↑
+----- PAGE 67 -----
+Kabelliste
+----- PAGE 68 -----
+Tittel: Erstatning for:
+Rev Dato Tekst Laget Sjekket Godkj. Prosjektnr. Rev. Utg. OROrdre nr. Fag Dok.type Løpenr. Rev.
+Blad: av Entreprise:Haugen Skole
+65 9321006013 BA TI 004 0808
+03
+02
+01 12.08.2423.08.2430.08.2409.05.25
+Oppdatert som bygget fra tavlebyggerLagt til Modbus på 360.006 (side 42)Korrigert etter igangkjøringGjeldende revisjon
+ME2400ME2400SB2659
+210060132100601321006013
+010203
+010203
+Haugen Skole+01=434.004Kabel Linje Type Fra Til
+/9.3 /9.3
+/9.3 /9.3
+/9.6
+/9.6
+/9.9
+/9.9
+/9.12
+/9.12
+/10.3/9.6
+/9.6
+/9.9
+/9.9
+/9.12
+/9.12
+/10.3
+/10.3
+/10.6
+/10.6
+/10.9/10.3
+/10.6
+/10.6
+/10.9
+/10.9
+/12.3
+/12.3
+/12.3/10.9
+/12.3
+/12.3
+/12.3
+/13.3 /13.3
+/13.3 /13.3
+/13.3 /13.3 3332342930311314111210987563412 -KW001
+-KW001
+-KW002
+-KW002
+-KW003
+-KW003
+-KW004
+-KW004
+-KW005
+-KW005
+-KW006
+-KW006
+-KW007
+-KW007
+-KW013
+-KW013
+-KW013
+-KW014
+-KW014
+-KW014 28272625242322212019181716151413121110987654321
+-XX01-XX01-XX01-XX01-XX01-XX01-XX01-XX01-XX01-XX01-XX01-XX01-XX01-XX01-XX01-XX01-XX01-XX01-XX01-XX01 +01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004 315135133131131313
+-XQ401-XQ401-XQ401-XQ401-XQ401-XQ401-JV501-JV501-XQ401-XQ401-XQ401-XQ401-XQ401-XQ401-XQ401-XQ401-XQ501-XQ501-XQ401-XQ401
++01=360.006+01=360.006+01=360.006+01=369.002+01=369.002+01=369.002+01=369.001+01=369.001+01=320.007+01=320.007+01=320.003+01=320.003+01=320.002+01=320.002+01=320.001+01=320.001+01=310.001+01=310.001+01=310.001+01=310.001
+----- PAGE 69 -----
+Tittel: Erstatning for:
+Rev Dato Tekst Laget Sjekket Godkj. Prosjektnr. Rev. Utg. OROrdre nr. Fag Dok.type Løpenr. Rev.
+Blad: av Entreprise:Haugen Skole
+66 9321006013 BA TI 004 0808
+03
+02
+01 12.08.2423.08.2430.08.2409.05.25
+Oppdatert som bygget fra tavlebyggerLagt til Modbus på 360.006 (side 42)Korrigert etter igangkjøringGjeldende revisjon
+ME2400ME2400SB2659
+210060132100601321006013
+010203
+010203
+Haugen Skole+01=434.004Kabel Linje Type Fra Til
+/13.9 /13.9
+/13.9 /13.9
+/13.9
+/14.3
+/14.3
+/14.3
+/14.9
+/14.9
+/14.9
+/15.3/13.9
+/14.3
+/14.3
+/14.3
+/14.9
+/14.9
+/14.9
+/15.3
+/15.3
+/15.6
+/15.6
+/16.6/15.3
+/15.6
+/15.6
+/16.6
+/16.6
+/17.3
+/17.3
+/17.6/16.6
+/17.3
+/17.3
+/17.6
+/17.6 /17.6 56575455505146474445414243383940373635 -KW015
+-KW015
+-KW015
+-KW016
+-KW016
+-KW016
+-KW017
+-KW017
+-KW017
+-KW018
+-KW018
+-KW019
+-KW019
+-KW022
+-KW022
+-KW024
+-KW024
+-KW025
+-KW025
+56555453525150494847464544434241403938373635343332313029
+-XX01-XX01-XX01-XX01-XX01-XX01-XX01-XX01-XX01-XX01-XX01-XX01-XX01-XX01-XX01-XX01-XX01-XX01-XX01 +01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004 1313LN1313135135531
+-XQ502-XQ502-XQ501-XQ501-MP001-MP001-XQ403-XQ403-XQ404-XQ404-XQ502-XQ502-XQ502-XQ501-XQ501-XQ501-XQ402-XQ402-XQ402
++01=390.001+01=390.001+01=390.001+01=390.001+01=360.006+01=360.006+01=360.006+01=360.006+01=360.006+01=360.006+01=360.006+01=360.006+01=360.006+01=360.006+01=360.006+01=360.006+01=360.006+01=360.006+01=360.006
+----- PAGE 70 -----
+Tittel: Erstatning for:
+Rev Dato Tekst Laget Sjekket Godkj. Prosjektnr. Rev. Utg. OROrdre nr. Fag Dok.type Løpenr. Rev.
+Blad: av Entreprise:Haugen Skole
+67 9321006013 BA TI 004 0808
+03
+02
+01 12.08.2423.08.2430.08.2409.05.25
+Oppdatert som bygget fra tavlebyggerLagt til Modbus på 360.006 (side 42)Korrigert etter igangkjøringGjeldende revisjon
+ME2400ME2400SB2659
+210060132100601321006013
+010203
+010203
+Haugen Skole+01=434.004Kabel Linje Type Fra Til
+/17.9 /17.9
+/17.9 /17.9
+/17.12
+/17.12
+/17.13
+/17.13
+/18.3
+/18.3
+/18.6
+/18.6/17.12
+/17.12
+/17.13
+/17.13
+/18.6
+/18.6
+/18.9
+/18.9
+/18.12
+/18.12/18.9
+/18.9
+/18.12
+/18.12
+/19.3
+/19.3
+/19.9
+/19.9/19.3
+/19.3
+/19.9
+/19.9
+/19.6 /19.6
+/19.6 /19.6 7273747570716869666764656263616261605859 -KW026
+-KW026
+-KW027
+-KW027
+-KW027
+-KW027
+-KW028
+-KW028
+-KW029
+-KW029
+-KW030
+-KW030
+-KW031
+-KW031
+-KW032
+-KW032
+-KW033
+-KW033
+-KW033
+-KW033
+84838281807978777675747372717069686766656463626160595857
+-XX01-XX01-XX01-XX01-XX01-XX01-XX01-XX01-XX01-XX01-XX01-XX01-XX01-XX01-XX03-XX03-XX01-XX01-XX01-XX01 +01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004 131313L1¨NL1N13S/SCNL1L1N
+-XQ402-XQ402-XQ403-XQ403-XQ401-XQ401-MV502-MV502-ML501-ML501-XQ501-XQ501-MV501-MV501-MV501-MV501-ML501-ML501
++01=320.001+01=320.001+01=320.001+01=320.001+01=320.008+01=320.008+01=370.002+01=370.002+01=370.002+01=370.002+01=370.002+01=370.002+01=390.001+01=390.001+01=390.001+01=390.001+01=390.001+01=390.001
+----- PAGE 71 -----
+Tittel: Erstatning for:
+Rev Dato Tekst Laget Sjekket Godkj. Prosjektnr. Rev. Utg. OROrdre nr. Fag Dok.type Løpenr. Rev.
+Blad: av Entreprise:Haugen Skole
+68 9321006013 BA TI 004 0808
+03
+02
+01 12.08.2423.08.2430.08.2409.05.25
+Oppdatert som bygget fra tavlebyggerLagt til Modbus på 360.006 (side 42)Korrigert etter igangkjøringGjeldende revisjon
+ME2400ME2400SB2659
+210060132100601321006013
+010203
+010203
+Haugen Skole+01=434.004Kabel Linje Type Fra Til
+/19.12 /19.12
+/19.12 /19.12
+/20.3
+/20.3
+/20.6
+/20.6
+/18.13
+/18.13
+/9.4/20.3
+/20.3
+/20.6
+/20.6
+/18.13
+/18.13
+/9.4
+/9.5
+/9.4
+/9.4
+/9.4
+/9.4/9.5
+/9.4
+/9.4
+/9.4
+/9.4
+/9.7
+/9.7
+/9.8
+/9.7
+/9.7
+/9.7/9.7
+/9.7
+/9.8
+/9.7
+/9.7
+/9.7 9871211102345616970808178797776 -KW034
+-KW034
+-KW036
+-KW036
+-KW037
+-KW037
+-KX31
+-KX31
+-KX001
+-KX001
+-KX001
+-KX001
+-KX001
+-KX001
+-KX002
+-KX002
+-KX002
+-KX002
+-KX002
+-KX002
+112111110109108107106105104103102101100999897969594939291908988878685
+PFK 6x0,5mm el.l
+PFK 6x0,5mm el.l
+PFK 6x0,5mm el.l
+PFK 6x0,5mm el.l
+PFK 6x0,5mm el.l
+PFK 6x0,5mm el.l
+PFK 6x0,5mm el.l
+PFK 6x0,5mm el.l
+PFK 6x0,5mm el.l
+PFK 6x0,5mm el.l
+PFK 6x0,5mm el.l
+PFK 6x0,5mm el.l -XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX01-XX01-XX01-XX01-XX01-XX01 +01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004 NOCNCCSCCNOCSCNCS/SC12L1N31
+-JP501-JP501-JP501-JP501-JP501-JP501-JP401-JP401-JP401-JP401-JP401-JP401-MV502-MV502-MV502-MV502-ML501-ML501-XQ501-XQ501
++01=310.001+01=310.001+01=310.001+01=310.001+01=310.001+01=310.001+01=310.001+01=310.001+01=310.001+01=310.001+01=310.001+01=310.001+01=370.002+01=370.002+01=320.001+01=320.001+01=320.001+01=320.001+01=320.001+01=320.001
+----- PAGE 72 -----
+Tittel: Erstatning for:
+Rev Dato Tekst Laget Sjekket Godkj. Prosjektnr. Rev. Utg. OROrdre nr. Fag Dok.type Løpenr. Rev.
+Blad: av Entreprise:Haugen Skole
+69 9321006013 BA TI 004 0808
+03
+02
+01 12.08.2423.08.2430.08.2409.05.25
+Oppdatert som bygget fra tavlebyggerLagt til Modbus på 360.006 (side 42)Korrigert etter igangkjøringGjeldende revisjon
+ME2400ME2400SB2659
+210060132100601321006013
+010203
+010203
+Haugen Skole+01=434.004Kabel Linje Type Fra Til
+/9.11 /9.11
+/9.10 /9.10
+/9.10
+/9.10
+/9.10
+/9.10
+/9.14
+/9.13
+/9.13
+/9.13
+/9.13
+/9.13/9.10
+/9.10
+/9.10
+/9.10
+/9.14
+/9.13
+/9.13
+/9.13
+/9.13
+/9.13
+/10.4
+/10.4
+/10.4
+/10.4
+/10.5
+/10.4/10.4
+/10.4
+/10.4
+/10.4
+/10.5
+/10.4
+/10.7
+/10.8
+/10.7
+/10.7
+/10.7/10.7
+/10.8
+/10.7
+/10.7
+/10.7
+/10.7 /10.7 313534323633253027262928222120231924141317161518 -KX003
+-KX003
+-KX003
+-KX003
+-KX003
+-KX003
+-KX003
+-KX003
+-KX003
+-KX003
+-KX003
+-KX003
+-KX005
+-KX005
+-KX005
+-KX005
+-KX005
+-KX005
+-KX006
+-KX006
+-KX006
+-KX006
+-KX006
+-KX006
+140139138137136135134133132131130129128127126125124123122121120119118117116115114113 PFK 6x0,5mm el.l
+PFK 6x0,5mm el.l
+PFK 6x0,5mm el.l
+PFK 6x0,5mm el.l
+PFK 6x0,5mm el.l
+PFK 6x0,5mm el.l
+PFK 6x0,5mm el.l
+PFK 6x0,5mm el.l
+PFK 6x0,5mm el.l
+PFK 6x0,5mm el.l
+PFK 6x0,5mm el.l
+PFK 6x0,5mm el.l
+PFK 6x0,5mm el.l
+PFK 6x0,5mm el.l
+PFK 6x0,5mm el.l
+PFK 6x0,5mm el.l
+PFK 6x0,5mm el.l
+PFK 6x0,5mm el.l
+PFK 6x0,5mm el.l
+PFK 6x0,5mm el.l
+PFK 6x0,5mm el.l
+PFK 6x0,5mm el.l
+PFK 6x0,5mm el.l
+PFK 6x0,5mm el.l -XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03 +01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004 CS/SNONOCCCCCNOS/SNONOCNOS/SCCNOCS/SNOCC
+-JP401-JP401-JP401-JP401-JP401-JP401-JP401-JP401-JP401-JP401-JP401-JP401-JP401-JP401-JP401-JP401-JP401-JP401-JP401-JP401-JP401-JP401-JP401-JP401
++01=320.007+01=320.007+01=320.007+01=320.007+01=320.007+01=320.007+01=320.003+01=320.003+01=320.003+01=320.003+01=320.003+01=320.003+01=320.002+01=320.002+01=320.002+01=320.002+01=320.002+01=320.002+01=320.001+01=320.001+01=320.001+01=320.001+01=320.001+01=320.001
+----- PAGE 73 -----
+Tittel: Erstatning for:
+Rev Dato Tekst Laget Sjekket Godkj. Prosjektnr. Rev. Utg. OROrdre nr. Fag Dok.type Løpenr. Rev.
+Blad: av Entreprise:Haugen Skole
+70 9321006013 BA TI 004 0808
+03
+02
+01 12.08.2423.08.2430.08.2409.05.25
+Oppdatert som bygget fra tavlebyggerLagt til Modbus på 360.006 (side 42)Korrigert etter igangkjøringGjeldende revisjon
+ME2400ME2400SB2659
+210060132100601321006013
+010203
+010203
+Haugen Skole+01=434.004Kabel Linje Type Fra Til
+/13.5 /13.5
+/13.5 /13.5
+/13.4
+/13.5
+/13.5
+/13.6
+/13.5
+/13.5
+/13.4
+/13.4
+/13.11/13.4
+/13.5
+/13.5
+/13.6
+/13.5
+/13.5
+/13.4
+/13.4
+/13.11
+/13.10
+/13.11
+/13.11
+/13.11
+/13.12
+/13.11/13.10
+/13.11
+/13.11
+/13.11
+/13.12
+/13.11
+/13.11
+/13.10
+/13.10/13.11
+/13.10
+/13.10 8281888990878586838471727877807974737675 -KX014
+-KX014
+-KX014
+-KX014
+-KX014
+-KX014
+-KX014
+-KX014
+-KX014.1
+-KX014.1
+-KX015
+-KX015
+-KX015
+-KX015
+-KX015
+-KX015
+-KX015
+-KX015
+-KX015.1
+-KX015.1
+168167166165164163162161160159158157156155154153152151150149148147146145144143142141 PFK 8x0,5mm el.l
+PFK 8x0,5mm el.l
+PFK 8x0,5mm el.l
+PFK 8x0,5mm el.l
+PFK 8x0,5mm el.l
+PFK 8x0,5mm el.l
+PFK 8x0,5mm el.l
+PFK 8x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 8x0,5mm el.l
+PFK 8x0,5mm el.l
+PFK 8x0,5mm el.l
+PFK 8x0,5mm el.l
+PFK 8x0,5mm el.l
+PFK 8x0,5mm el.l
+PFK 8x0,5mm el.l
+PFK 8x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l -XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03 +01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004518545512NCCNOC518125554CNOCNC
+-XQ402-XQ402-LR402-LR402-LR402-LR402-LR402-LR402-LR402-LR402-XQ401-XQ401-LR401-LR401-LR401-LR401-LR401-LR401-LR401-LR401
++01=360.006+01=360.006+01=360.006+01=360.006+01=360.006+01=360.006+01=360.006+01=360.006+01=360.006+01=360.006+01=360.006+01=360.006+01=360.006+01=360.006+01=360.006+01=360.006+01=360.006+01=360.006+01=360.006+01=360.006
+----- PAGE 74 -----
+Tittel: Erstatning for:
+Rev Dato Tekst Laget Sjekket Godkj. Prosjektnr. Rev. Utg. OROrdre nr. Fag Dok.type Løpenr. Rev.
+Blad: av Entreprise:Haugen Skole
+71 9321006013 BA TI 004 0808
+03
+02
+01 12.08.2423.08.2430.08.2409.05.25
+Oppdatert som bygget fra tavlebyggerLagt til Modbus på 360.006 (side 42)Korrigert etter igangkjøringGjeldende revisjon
+ME2400ME2400SB2659
+210060132100601321006013
+010203
+010203
+Haugen Skole+01=434.004Kabel Linje Type Fra Til
+/14.5 /14.5
+/14.5 /14.5
+/14.5
+/14.4
+/14.5
+/14.6
+/14.5
+/14.5
+/14.4
+/14.4
+/14.11/14.5
+/14.4
+/14.5
+/14.6
+/14.5
+/14.5
+/14.4
+/14.4
+/14.11
+/14.11
+/14.11
+/14.10
+/14.11
+/14.12
+/14.11/14.11
+/14.11
+/14.10
+/14.11
+/14.12
+/14.11
+/14.11
+/14.10
+/14.10/14.11
+/14.10
+/14.10 101102108109110104103105107106919298991009493959796 -KX016
+-KX016
+-KX016
+-KX016
+-KX016
+-KX016
+-KX016
+-KX016
+-KX016.1
+-KX016.1
+-KX017
+-KX017
+-KX017
+-KX017
+-KX017
+-KX017
+-KX017
+-KX017
+-KX017.1
+-KX017.1
+196195194193192191190189188187186185184183182181180179178177176175174173172171170169 PFK 8x0,5mm el.l
+PFK 8x0,5mm el.l
+PFK 8x0,5mm el.l
+PFK 8x0,5mm el.l
+PFK 8x0,5mm el.l
+PFK 8x0,5mm el.l
+PFK 8x0,5mm el.l
+PFK 8x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 8x0,5mm el.l
+PFK 8x0,5mm el.l
+PFK 8x0,5mm el.l
+PFK 8x0,5mm el.l
+PFK 8x0,5mm el.l
+PFK 8x0,5mm el.l
+PFK 8x0,5mm el.l
+PFK 8x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l -XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03 +01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004 5185455CNONC12C5185455CNONC12C
+-XQ502-XQ502-LR502-LR502-LR502-LR502-LR502-LR502-LR502-LR502-XQ501-XQ501-LR501-LR501-LR501-LR501-LR501-LR501-LR501-LR501
++01=360.006+01=360.006+01=360.006+01=360.006+01=360.006+01=360.006+01=360.006+01=360.006+01=360.006+01=360.006+01=360.006+01=360.006+01=360.006+01=360.006+01=360.006+01=360.006+01=360.006+01=360.006+01=360.006+01=360.006
+----- PAGE 75 -----
+Tittel: Erstatning for:
+Rev Dato Tekst Laget Sjekket Godkj. Prosjektnr. Rev. Utg. OROrdre nr. Fag Dok.type Løpenr. Rev.
+Blad: av Entreprise:Haugen Skole
+72 9321006013 BA TI 004 0808
+03
+02
+01 12.08.2423.08.2430.08.2409.05.25
+Oppdatert som bygget fra tavlebyggerLagt til Modbus på 360.006 (side 42)Korrigert etter igangkjøringGjeldende revisjon
+ME2400ME2400SB2659
+210060132100601321006013
+010203
+010203
+Haugen Skole+01=434.004Kabel Linje Type Fra Til
+/15.5 /15.5
+/15.4 /15.4
+/15.4
+/15.4
+/15.4
+/15.4
+/15.3
+/15.3
+/15.8
+/15.8
+/15.7/15.4
+/15.4
+/15.4
+/15.4
+/15.3
+/15.3
+/15.8
+/15.8
+/15.7
+/15.7
+/15.6
+/15.6
+/24.2/15.7
+/15.6
+/15.6
+/24.2
+/24.2
+/24.3
+/24.3
+/24.2
+/24.2
+/24.2/24.2
+/24.3
+/24.3
+/24.2
+/24.2
+/24.2
+/24.2 /24.2 131132129130135136133134119120123124127128112111117115116113114118 -KX018
+-KX018
+-KX018
+-KX018
+-KX018
+-KX018
+-KX018.1
+-KX018.1
+-KX019
+-KX019
+-KX019
+-KX019
+-KX019.1
+-KX019.1
+-KX020
+-KX020
+-KX020
+-KX020
+-KX020
+-KX020
+-KX020
+-KX020
+224223222221220219218217216215214213212211210209208207206205204203202201200199198197 PFK 6x0,5mm el.l
+PFK 6x0,5mm el.l
+PFK 6x0,5mm el.l
+PFK 6x0,5mm el.l
+PFK 6x0,5mm el.l
+PFK 6x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 8x0,5mm el.l
+PFK 8x0,5mm el.l
+PFK 8x0,5mm el.l
+PFK 8x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 8x0,5mm el.l
+PFK 8x0,5mm el.l
+PFK 8x0,5mm el.l
+PFK 8x0,5mm el.l
+PFK 8x0,5mm el.l
+PFK 8x0,5mm el.l
+PFK 8x0,5mm el.l
+PFK 8x0,5mm el.l -XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03 +01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004 NOC----NCC12----21S/SCNOCNOC
+-IE001-IE001-IE001-IE001-IE001-IE001-IE001-IE001-XQ403-XQ403-LR402-LR402-LR402-LR402-XQ404-XQ404-JP401-JP401-JP401-JP401-JP401-JP401
++01=320.001+01=320.001+01=320.001+01=320.001+01=320.001+01=320.001+01=320.001+01=320.001+01=360.006+01=360.006+01=360.006+01=360.006+01=360.006+01=360.006+01=360.006+01=360.006+01=360.006+01=360.006+01=360.006+01=360.006+01=360.006+01=360.006
+----- PAGE 76 -----
+Tittel: Erstatning for:
+Rev Dato Tekst Laget Sjekket Godkj. Prosjektnr. Rev. Utg. OROrdre nr. Fag Dok.type Løpenr. Rev.
+Blad: av Entreprise:Haugen Skole
+73 9321006013 BA TI 004 0808
+03
+02
+01 12.08.2423.08.2430.08.2409.05.25
+Oppdatert som bygget fra tavlebyggerLagt til Modbus på 360.006 (side 42)Korrigert etter igangkjøringGjeldende revisjon
+ME2400ME2400SB2659
+210060132100601321006013
+010203
+010203
+Haugen Skole+01=434.004Kabel Linje Type Fra Til
+/17.4 /17.4
+/17.4 /17.4
+/17.5
+/17.4
+/17.4
+/17.4
+/17.7
+/17.7
+/17.8
+/17.7
+/17.7
+/17.7/17.5
+/17.4
+/17.4
+/17.4
+/17.7
+/17.7
+/17.8
+/17.7
+/17.7
+/17.7
+/18.4
+/18.4
+/18.5
+/18.4
+/18.4/18.4
+/18.4
+/18.5
+/18.4
+/18.4
+/18.4
+/18.7
+/18.7
+/18.7
+/18.7/18.4
+/18.7
+/18.7
+/18.7
+/18.7
+/18.8 /18.8
+/18.7 /18.7 402403399398401400384383382387386385656463686766575655605958 -KX024
+-KX024
+-KX024
+-KX024
+-KX024
+-KX024
+-KX025
+-KX025
+-KX025
+-KX025
+-KX025
+-KX025
+-KX028
+-KX028
+-KX028
+-KX028
+-KX028
+-KX028
+-KX029
+-KX029
+-KX029
+-KX029
+-KX029
+-KX029
+252251250249248247246245244243242241240239238237236235234233232231230229228227226225 PFK 6x0,5mm el.l
+PFK 6x0,5mm el.l
+PFK 6x0,5mm el.l
+PFK 6x0,5mm el.l
+PFK 6x0,5mm el.l
+PFK 6x0,5mm el.l
+PFK 8x0,5mm el.l
+PFK 8x0,5mm el.l
+PFK 8x0,5mm el.l
+PFK 8x0,5mm el.l
+PFK 8x0,5mm el.l
+PFK 8x0,5mm el.l
+PFK 6x0,5mm el.l
+PFK 6x0,5mm el.l
+PFK 6x0,5mm el.l
+PFK 6x0,5mm el.l
+PFK 6x0,5mm el.l
+PFK 6x0,5mm el.l
+PFK 6x0,5mm el.l
+PFK 6x0,5mm el.l
+PFK 6x0,5mm el.l
+PFK 6x0,5mm el.l
+PFK 6x0,5mm el.l
+PFK 6x0,5mm el.l -XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03 +01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004 S/SCNOCNOCCNOCCS/SNOCNOCCS/SNOCNOCCS/SNO
+-JP501-JP501-JP501-JP501-JP501-JP501-JP501-JP501-JP501-JP501-JP501-JP501-JP502-JP502-JP502-JP502-JP502-JP502-JP501-JP501-JP501-JP501-JP501-JP501
++01=370.002+01=370.002+01=370.002+01=370.002+01=370.002+01=370.002+01=370.001+01=370.001+01=370.001+01=370.001+01=370.001+01=370.001+01=390.001+01=390.001+01=390.001+01=390.001+01=390.001+01=390.001+01=390.001+01=390.001+01=390.001+01=390.001+01=390.001+01=390.001
+----- PAGE 77 -----
+Tittel: Erstatning for:
+Rev Dato Tekst Laget Sjekket Godkj. Prosjektnr. Rev. Utg. OROrdre nr. Fag Dok.type Løpenr. Rev.
+Blad: av Entreprise:Haugen Skole
+74 9321006013 BA TI 004 0808
+03
+02
+01 12.08.2423.08.2430.08.2409.05.25
+Oppdatert som bygget fra tavlebyggerLagt til Modbus på 360.006 (side 42)Korrigert etter igangkjøringGjeldende revisjon
+ME2400ME2400SB2659
+210060132100601321006013
+010203
+010203
+Haugen Skole+01=434.004Kabel Linje Type Fra Til
+/19.4 /19.4
+/19.4 /19.4
+/19.4
+/19.4
+/19.5
+/19.4
+/19.7
+/19.7
+/19.7
+/19.8
+/19.7
+/19.7/19.4
+/19.4
+/19.5
+/19.4
+/19.7
+/19.7
+/19.7
+/19.8
+/19.7
+/19.7
+/19.10
+/19.10
+/19.10
+/19.11
+/19.10/19.10
+/19.10
+/19.10
+/19.11
+/19.10
+/19.10
+/19.13
+/19.13
+/19.13
+/19.13/19.10
+/19.13
+/19.13
+/19.13
+/19.13
+/19.13 /19.13
+/19.14 /19.14 42354534546422505152474849424344394041419421420416417418 -KX032
+-KX032
+-KX032
+-KX032
+-KX032
+-KX032
+-KX033
+-KX033
+-KX033
+-KX033
+-KX033
+-KX033
+-KX034
+-KX034
+-KX034
+-KX034
+-KX034
+-KX034
+-KX035
+-KX035
+-KX035
+-KX035
+-KX035
+-KX035
+280279278277276275274273272271270269268267266265264263262261260259258257256255254253 PFK 6x0,5mm el.l
+PFK 6x0,5mm el.l
+PFK 6x0,5mm el.l
+PFK 6x0,5mm el.l
+PFK 6x0,5mm el.l
+PFK 6x0,5mm el.l
+PFK 6x0,5mm el.l
+PFK 6x0,5mm el.l
+PFK 6x0,5mm el.l
+PFK 6x0,5mm el.l
+PFK 6x0,5mm el.l
+PFK 6x0,5mm el.l
+PFK 6x0,5mm el.l
+PFK 6x0,5mm el.l
+PFK 6x0,5mm el.l
+PFK 6x0,5mm el.l
+PFK 6x0,5mm el.l
+PFK 6x0,5mm el.l
+PFK 6x0,5mm el.l
+PFK 6x0,5mm el.l
+PFK 6x0,5mm el.l
+PFK 6x0,5mm el.l
+PFK 6x0,5mm el.l
+PFK 6x0,5mm el.l -XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03 +01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004 CNOCCNOS/SNOS/SCCNOCNOS/SCCNOCNOCS/SCNOC
+-JP501-JP501-JP501-JP501-JP501-JP501-JP403-JP403-JP403-JP403-JP403-JP403-JP402-JP402-JP402-JP402-JP402-JP402-JP401-JP401-JP401-JP401-JP401-JP401
++01=320.001+01=320.001+01=320.001+01=320.001+01=320.001+01=320.001+01=320.001+01=320.001+01=320.001+01=320.001+01=320.001+01=320.001+01=320.001+01=320.001+01=320.001+01=320.001+01=320.001+01=320.001+01=320.008+01=320.008+01=320.008+01=320.008+01=320.008+01=320.008
+----- PAGE 78 -----
+Tittel: Erstatning for:
+Rev Dato Tekst Laget Sjekket Godkj. Prosjektnr. Rev. Utg. OROrdre nr. Fag Dok.type Løpenr. Rev.
+Blad: av Entreprise:Haugen Skole
+75 9321006013 BA TI 004 0808
+03
+02
+01 12.08.2423.08.2430.08.2409.05.25
+Oppdatert som bygget fra tavlebyggerLagt til Modbus på 360.006 (side 42)Korrigert etter igangkjøringGjeldende revisjon
+ME2400ME2400SB2659
+210060132100601321006013
+010203
+010203
+Haugen Skole+01=434.004Kabel Linje Type Fra Til
+/20.4 /20.4
+/20.4 /20.4
+/20.4
+/20.3
+/20.7
+/20.7
+/20.7
+/20.7
+/20.6
+/20.7
+/65.3/20.4
+/20.3
+/20.7
+/20.7
+/20.7
+/20.7
+/20.6
+/20.7
+/65.3
+/65.3
+/65.2
+/65.2
+/42.7
+/42.7/65.3
+/65.2
+/65.2
+/42.7
+/42.7
+/42.8
+/42.8
+/42.10
+/42.10
+/42.9/42.8
+/42.8
+/42.10
+/42.10
+/42.9
+/42.9 /42.9 229228231230226227224225337338340339429428431430432433424425426427 -KX036
+-KX036
+-KX036
+-KX036
+-KX037
+-KX037
+-KX037
+-KX037
+-KX037
+-KX037
+-KX129
+-KX129
+-KX129
+-KX129
+-KX136
+-KX136
+-KX136
+-KX136
+-KX138
+-KX138
+-KX138
+-KX138
+308307306305304303302301300299298297296295294293292291290289288287286285284283282281 PFK 6x0,5mm el.l
+PFK 6x0,5mm el.l
+PFK 6x0,5mm el.l
+PFK 6x0,5mm el.l
+PFK 6x0,5mm el.l
+PFK 6x0,5mm el.l
+PFK 6x0,5mm el.l
+PFK 6x0,5mm el.l
+PFK 6x0,5mm el.l
+PFK 6x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l -XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03 +01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004 --------1243CNOCNCS/SCNOCNCC
+-LC002-LC002-LC002-LC002-LC001-LC001-LC001-LC001-RY401-RY401-RY401-RY401-MV502-MV502-MV502-MV502-MV502-MV502-ML501-ML501-ML501-ML501
++01=359.002+01=359.002+01=359.002+01=359.002+01=359.001+01=359.001+01=359.001+01=359.001+01=360.006+01=360.006+01=360.006+01=360.006+01=320.001+01=320.001+01=320.001+01=320.001+01=320.001+01=320.001+01=320.001+01=320.001+01=320.001+01=320.001
+----- PAGE 79 -----
+Tittel: Erstatning for:
+Rev Dato Tekst Laget Sjekket Godkj. Prosjektnr. Rev. Utg. OROrdre nr. Fag Dok.type Løpenr. Rev.
+Blad: av Entreprise:Haugen Skole
+76 9321006013 BA TI 004 0808
+03
+02
+01 12.08.2423.08.2430.08.2409.05.25
+Oppdatert som bygget fra tavlebyggerLagt til Modbus på 360.006 (side 42)Korrigert etter igangkjøringGjeldende revisjon
+ME2400ME2400SB2659
+210060132100601321006013
+010203
+010203
+Haugen Skole+01=434.004Kabel Linje Type Fra Til
+/44.6 /44.6
+/44.6 /44.6
+/44.7
+/44.7
+/44.8
+/44.8
+/44.9
+/44.9
+/44.10/44.8
+/44.8
+/44.9
+/44.9
+/44.10
+/44.10
+/45.3
+/45.3
+/17.10/44.10
+/45.3
+/45.3
+/17.10
+/17.10
+/17.9
+/17.10
+/17.12
+/17.13/17.10
+/17.9
+/17.10
+/17.12
+/17.13
+/17.13 /17.13
+/17.13 /17.13 369370371368365364366367244245242243240241238239236237234235 -KX144
+-KX144
+-KX145
+-KX145
+-KX146
+-KX146
+-KX147
+-KX147
+-KX148
+-KX148
+-KX149
+-KX149
+-KX154
+-KX154
+-KX154
+-KX154
+-KX156
+-KX156
+-KX156
+-KX156
+336335334333332331330329328327326325324323322321320319318317316315314313312311310309 PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 6x0,5mm el.l
+PFK 6x0,5mm el.l
+PFK 6x0,5mm el.l
+PFK 6x0,5mm el.l
+PFK 6x0,5mm el.l
+PFK 6x0,5mm el.l
+PFK 6x0,5mm el.l
+PFK 6x0,5mm el.l -XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03 +01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004 CNCCNOCNONCC1C1C------
+-MV501-MV501-MV501-MV501-ML501-ML501-ML501-ML501-RP001-RP001-SJ001-SJ001-OS001-OS001-OS001-OS001-RY001-RY001
++01=390.001+01=390.001+01=390.001+01=390.001+01=390.001+01=390.001+01=390.001+01=390.001+01=332.001+01=332.001+01=332.001+01=332.001+01=335.002+01=335.002+01=335.001+01=335.001+01=320.001+01=320.001
+----- PAGE 80 -----
+Tittel: Erstatning for:
+Rev Dato Tekst Laget Sjekket Godkj. Prosjektnr. Rev. Utg. OROrdre nr. Fag Dok.type Løpenr. Rev.
+Blad: av Entreprise:Haugen Skole
+77 9321006013 BA TI 004 0808
+03
+02
+01 12.08.2423.08.2430.08.2409.05.25
+Oppdatert som bygget fra tavlebyggerLagt til Modbus på 360.006 (side 42)Korrigert etter igangkjøringGjeldende revisjon
+ME2400ME2400SB2659
+210060132100601321006013
+010203
+010203
+Haugen Skole+01=434.004Kabel Linje Type Fra Til
+/48.3 /9.3
+/48.3 /9.3
+/48.4
+/48.4
+/48.5
+/48.5
+/48.6
+/48.6
+/48.7/9.6
+/9.6
+/9.9
+/9.9
+/9.12
+/9.12
+/10.3
+/48.7
+/48.8
+/48.8
+/48.9/10.3
+/10.6
+/10.6
+/19.12
+/48.9
+/48.10
+/48.10
+/49.3/19.12
+/19.6
+/19.6
+/19.9
+/49.3 /19.9 277276274275273272271270269268267266265264262263260261 -KX161
+-KX161
+-KX162
+-KX162
+-KX163
+-KX163
+-KX164
+-KX164
+-KX165
+-KX165
+-KX166
+-KX166
+-KX167
+-KX167
+-KX168
+-KX168
+-KX169
+-KX169
+364363362361360359358357356355354353352351350349348347346345344343342341340339338337 PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l -XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03 +01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004 211221212121211212
+-XQ403-XQ403-XQ402-XQ402-XQ501-XQ501-XQ401-XQ401-XQ401-XQ401-XQ401-XQ401-XQ401-XQ401-XQ501-XQ501-XQ401-XQ401
++01=320.001+01=320.001+01=320.001+01=320.001+01=320.001+01=320.001+01=320.007+01=320.007+01=320.003+01=320.003+01=320.002+01=320.002+01=320.001+01=320.001+01=310.001+01=310.001+01=310.001+01=310.001
+----- PAGE 81 -----
+Tittel: Erstatning for:
+Rev Dato Tekst Laget Sjekket Godkj. Prosjektnr. Rev. Utg. OROrdre nr. Fag Dok.type Løpenr. Rev.
+Blad: av Entreprise:Haugen Skole
+78 9321006013 BA TI 004 0808
+03
+02
+01 12.08.2423.08.2430.08.2409.05.25
+Oppdatert som bygget fra tavlebyggerLagt til Modbus på 360.006 (side 42)Korrigert etter igangkjøringGjeldende revisjon
+ME2400ME2400SB2659
+210060132100601321006013
+010203
+010203
+Haugen Skole+01=434.004Kabel Linje Type Fra Til
+/31.3 /31.3
+/31.3 /31.3
+/31.4
+/31.4
+/31.5
+/31.5
+/31.6
+/31.6
+/31.7/31.4
+/31.4
+/31.5
+/31.5
+/31.6
+/31.6
+/31.7
+/31.7
+/31.8
+/31.8
+/31.9/31.7
+/31.8
+/31.8
+/31.9
+/31.9
+/31.10
+/31.10
+/32.3/31.9
+/31.10
+/31.10
+/32.3
+/32.3 /32.3 169168167166165164163162160161158159156157154155153152 -KX211
+-KX211
+-KX212
+-KX212
+-KX213
+-KX213
+-KX214
+-KX214
+-KX215
+-KX215
+-KX216
+-KX216
+-KX217
+-KX217
+-KX218
+-KX218
+-KX221
+-KX221
+392391390389388387386385384383382381380379378377376375374373372371370369368367366365 PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l -XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03 +01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004 212121211212121221
+-RT506-RT506-RT502-RT502-RT501-RT501-RT401-RT401-RT401-RT401-RT405-RT405-RT402-RT402-RT404-RT404-RT401-RT401
++01=320.001+01=320.001+01=390.001+01=390.001+01=390.001+01=390.001+01=320.001+01=320.001+01=390.001+01=390.001+01=310.001+01=310.001+01=310.001+01=310.001+01=310.001+01=310.001+01=310.001+01=310.001
+----- PAGE 82 -----
+Tittel: Erstatning for:
+Rev Dato Tekst Laget Sjekket Godkj. Prosjektnr. Rev. Utg. OROrdre nr. Fag Dok.type Løpenr. Rev.
+Blad: av Entreprise:Haugen Skole
+79 9321006013 BA TI 004 0808
+03
+02
+01 12.08.2423.08.2430.08.2409.05.25
+Oppdatert som bygget fra tavlebyggerLagt til Modbus på 360.006 (side 42)Korrigert etter igangkjøringGjeldende revisjon
+ME2400ME2400SB2659
+210060132100601321006013
+010203
+010203
+Haugen Skole+01=434.004Kabel Linje Type Fra Til
+/32.4 /32.4
+/32.4 /32.4
+/32.5
+/32.5
+/32.6
+/32.6
+/32.7
+/32.7
+/32.8/32.5
+/32.5
+/32.6
+/32.6
+/32.7
+/32.7
+/32.8
+/32.8
+/32.9
+/32.9
+/32.10/32.8
+/32.9
+/32.9
+/32.10
+/32.10
+/33.3
+/33.3
+/33.4/32.10
+/33.3
+/33.3
+/33.4
+/33.4 /33.4 186187184185182183181180179178176177174175172173170171 -KX222
+-KX222
+-KX223
+-KX223
+-KX224
+-KX224
+-KX225
+-KX225
+-KX226
+-KX226
+-KX227
+-KX227
+-KX228
+-KX228
+-KX231
+-KX231
+-KX232
+-KX232
+420419418417416415414413412411410409408407406405404403402401400399398397396395394393 PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l -XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03 +01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004 121212212112121212
+-RT501-RT501-RT401-RT401-RT501-RT501-RT401-RT401-RT502-RT502-RT501-RT501-RT504-RT504-RT505-RT505-RT402-RT402
++01=320.003+01=320.003+01=320.003+01=320.003+01=320.002+01=320.002+01=320.002+01=320.002+01=320.001+01=320.001+01=320.001+01=320.001+01=320.001+01=320.001+01=320.001+01=320.001+01=320.001+01=320.001
+----- PAGE 83 -----
+Tittel: Erstatning for:
+Rev Dato Tekst Laget Sjekket Godkj. Prosjektnr. Rev. Utg. OROrdre nr. Fag Dok.type Løpenr. Rev.
+Blad: av Entreprise:Haugen Skole
+80 9321006013 BA TI 004 0808
+03
+02
+01 12.08.2423.08.2430.08.2409.05.25
+Oppdatert som bygget fra tavlebyggerLagt til Modbus på 360.006 (side 42)Korrigert etter igangkjøringGjeldende revisjon
+ME2400ME2400SB2659
+210060132100601321006013
+010203
+010203
+Haugen Skole+01=434.004Kabel Linje Type Fra Til
+/33.5 /33.5
+/33.5 /33.5
+/33.6
+/33.6
+/33.7
+/33.7
+/33.8
+/33.8
+/33.9/33.6
+/33.6
+/33.7
+/33.7
+/33.8
+/33.8
+/33.9
+/33.9
+/33.10
+/33.10
+/34.2/33.9
+/33.10
+/33.10
+/34.2
+/34.3
+/34.3
+/34.3
+/34.4
+/34.4/34.3
+/34.3
+/34.3
+/34.4
+/34.4 205204203202201200199198196197195194192193190191189188 -KX233
+-KX233
+-KX234
+-KX234
+-KX235
+-KX235
+-KX236
+-KX236
+-KX237
+-KX237
+-KX238
+-KX238
+-KX241
+-KX241
+-KX241
+-KX242
+-KX242
+-KX242
+448447446445444443442441440439438437436435434433432431430429428427426425424423422421 PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l -XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03 +01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004 231231211221121221
+-RP001-RP001-RP001-RD401-RD401-RD401-RT403-RT403-RT901-RT901-RT601-RT601-RT601-RT601-RT501-RT501-RT401-RT401
++01=390.001+01=390.001+01=390.001+01=310.001+01=310.001+01=310.001+01=310.001+01=310.001+01=320.001+01=320.001+01=359.002+01=359.002+01=359.001+01=359.001+01=320.007+01=320.007+01=320.007+01=320.007
+----- PAGE 84 -----
+Tittel: Erstatning for:
+Rev Dato Tekst Laget Sjekket Godkj. Prosjektnr. Rev. Utg. OROrdre nr. Fag Dok.type Løpenr. Rev.
+Blad: av Entreprise:Haugen Skole
+81 9321006013 BA TI 004 0808
+03
+02
+01 12.08.2423.08.2430.08.2409.05.25
+Oppdatert som bygget fra tavlebyggerLagt til Modbus på 360.006 (side 42)Korrigert etter igangkjøringGjeldende revisjon
+ME2400ME2400SB2659
+210060132100601321006013
+010203
+010203
+Haugen Skole+01=434.004Kabel Linje Type Fra Til
+/34.5 /34.5
+/34.5 /34.5
+/34.4
+/34.5
+/34.6
+/34.6
+/34.6
+/34.7
+/34.7
+/34.8/34.4
+/34.5
+/34.6
+/34.6
+/34.6
+/34.7
+/34.7
+/34.8
+/34.8
+/34.7
+/34.8
+/34.9
+/34.9/34.8
+/34.7
+/34.8
+/34.9
+/34.9
+/34.10
+/34.10
+/34.9
+/35.3/34.10
+/34.10
+/34.9
+/35.3
+/35.3 /35.3 434435221222223219220218215216217214213212211210209206207208 -KX243
+-KX243
+-KX243
+-KX244
+-KX244
+-KX244
+-KX245
+-KX245
+-KX245
+-KX246
+-KX246
+-KX246
+-KX247
+-KX247
+-KX247
+-KX248
+-KX248
+-KX248
+-KX249
+-KX249
+476475474473472471470469468467466465464463462461460459458457456455454453452451450449 PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el .l
+PFK 4x0,5mm el .l
+PFK 4x0,5mm el .l
+PFK 4x0,5mm el .l
+PFK 4x0,5mm el .l
+PFK 4x0,5mm el .l
+PFK 4x0,5mm el .l
+PFK 4x0,5mm el .l
+PFK 4x0,5mm el .l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l -XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03 +01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004 12GYG0YG0GGYG0231231132
+-RT503-RT503-SB401-SB401-SB401-SB401-SB401-SB401-SB401-SB401-SB401-RP001-RP001-RP001-RD401-RD401-RD401-RD402-RD402-RD402
++01=320.001+01=320.001+01=320.007+01=320.007+01=320.007+01=320.003+01=320.003+01=320.003+01=320.002+01=320.002+01=320.002+01=320.001+01=320.001+01=320.001+01=320.001+01=320.001+01=320.001+01=320.001+01=320.001+01=320.001
+----- PAGE 85 -----
+Tittel: Erstatning for:
+Rev Dato Tekst Laget Sjekket Godkj. Prosjektnr. Rev. Utg. OROrdre nr. Fag Dok.type Løpenr. Rev.
+Blad: av Entreprise:Haugen Skole
+82 9321006013 BA TI 004 0808
+03
+02
+01 12.08.2423.08.2430.08.2409.05.25
+Oppdatert som bygget fra tavlebyggerLagt til Modbus på 360.006 (side 42)Korrigert etter igangkjøringGjeldende revisjon
+ME2400ME2400SB2659
+210060132100601321006013
+010203
+010203
+Haugen Skole+01=434.004Kabel Linje Type Fra Til
+/35.4 /35.4
+/35.4 /35.4
+/35.5
+/35.5
+/35.6
+/35.6
+/35.5
+/35.7
+/35.7
+/35.6/35.5
+/35.5
+/35.6
+/35.6
+/35.5
+/35.7
+/35.7
+/35.6
+/35.9
+/35.9
+/35.8
+/35.10/35.9
+/35.9
+/35.8
+/35.10
+/35.10
+/35.9
+/58.3
+/58.3/35.10
+/35.9
+/58.3
+/58.3
+/58.4 /58.4
+/58.4 /58.4 290291288289449451450446448447443444445440441442438439436437 -KX250
+-KX250
+-KX251
+-KX251
+-KX252
+-KX252
+-KX252
+-KX253
+-KX253
+-KX253
+-KX254
+-KX254
+-KX254
+-KX255
+-KX255
+-KX255
+-KX261
+-KX261
+-KX262
+-KX262
+504503502501500499498497496495494493492491490489488487486485484483482481480479478477 PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el .l
+PFK 4x0,5mm el .l
+PFK 4x0,5mm el .l
+PFK 4x0,5mm el .l
+PFK 4x0,5mm el .l
+PFK 4x0,5mm el .l
+PFK 4x0,5mm el .l
+PFK 4x0,5mm el .l
+PFK 4x0,5mm el .l
+PFK 4x0,5mm el .l
+PFK 4x0,5mm el .l
+PFK 4x0,5mm el .l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l -XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03 +01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004 BMBMGG0Y1231321321212
+-RT402-RT402-RT401-RT401-SB401-SB401-SB401-RD502-RD502-RD502-RD501-RD501-RD501-RD403-RD403-RD403-RT502-RT502-RT501-RT501
++01=360.006+01=360.006+01=360.006+01=360.006+01=320.001+01=320.001+01=320.001+01=320.001+01=320.001+01=320.001+01=320.001+01=320.001+01=320.001+01=320.001+01=320.001+01=320.001+01=310.001+01=310.001+01=310.001+01=310.001
+----- PAGE 86 -----
+Tittel: Erstatning for:
+Rev Dato Tekst Laget Sjekket Godkj. Prosjektnr. Rev. Utg. OROrdre nr. Fag Dok.type Løpenr. Rev.
+Blad: av Entreprise:Haugen Skole
+83 9321006013 BA TI 004 0808
+03
+02
+01 12.08.2423.08.2430.08.2409.05.25
+Oppdatert som bygget fra tavlebyggerLagt til Modbus på 360.006 (side 42)Korrigert etter igangkjøringGjeldende revisjon
+ME2400ME2400SB2659
+210060132100601321006013
+010203
+010203
+Haugen Skole+01=434.004Kabel Linje Type Fra Til
+/58.5 /58.5
+/58.5 /58.5
+/58.6
+/58.6
+/58.7
+/58.7
+/58.8
+/58.8
+/58.9/58.6
+/58.6
+/58.7
+/58.7
+/58.8
+/58.8
+/58.9
+/58.9
+/58.10
+/58.10
+/59.3/58.9
+/58.10
+/58.10
+/59.3
+/59.3
+/59.4
+/59.4
+/59.5/59.3
+/59.4
+/59.4
+/59.5
+/59.5 /59.5
+/59.4 /59.4 308309310306307305304302303300301298299296297295294292293 -KX263
+-KX263
+-KX264
+-KX264
+-KX265
+-KX265
+-KX266
+-KX266
+-KX267
+-KX267
+-KX268
+-KX268
+-KX271
+-KX271
+-KX272
+-KX272
+-KX273
+-KX273
+-KX273
+532531530529528527526525524523522521520519518517516515514513512511510509508507506505 PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l -XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03 +01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004 GUMBMMBBMBM--BMMBBM
+-RD401-RD401-RD401-RT502-RT502-RT501-RT501-RT504-RT504-RT406-RT406-RT503-RT503-RT403-RT403-RT405-RT405-RT404-RT404
++01=360.006+01=360.006+01=360.006+01=360.006+01=360.006+01=360.006+01=360.006+01=360.006+01=360.006+01=360.006+01=360.006+01=360.006+01=360.006+01=360.006+01=360.006+01=360.006+01=360.006+01=360.006+01=360.006
+----- PAGE 87 -----
+Tittel: Erstatning for:
+Rev Dato Tekst Laget Sjekket Godkj. Prosjektnr. Rev. Utg. OROrdre nr. Fag Dok.type Løpenr. Rev.
+Blad: av Entreprise:Haugen Skole
+84 9321006013 BA TI 004 0808
+03
+02
+01 12.08.2423.08.2430.08.2409.05.25
+Oppdatert som bygget fra tavlebyggerLagt til Modbus på 360.006 (side 42)Korrigert etter igangkjøringGjeldende revisjon
+ME2400ME2400SB2659
+210060132100601321006013
+010203
+010203
+Haugen Skole+01=434.004Kabel Linje Type Fra Til
+/59.6 /59.6
+/59.6 /59.6
+/59.5
+/59.7
+/59.7
+/59.6
+/59.8
+/59.8
+/59.7
+/59.9/59.5
+/59.7
+/59.7
+/59.6
+/59.8
+/59.8
+/59.7
+/59.9
+/59.9
+/59.8
+/59.10
+/59.10
+/59.9/59.9
+/59.8
+/59.10
+/59.10
+/59.9
+/60.2
+/60.3
+/60.3
+/60.4/60.2
+/60.3
+/60.3
+/60.4
+/60.5 /60.5
+/60.5 /60.5
+/60.4 /60.4 329332331330328327326323324325320321322317318319314315316311312313 -KX274
+-KX274
+-KX274
+-KX275
+-KX275
+-KX275
+-KX276
+-KX276
+-KX276
+-KX277
+-KX277
+-KX277
+-KX278
+-KX278
+-KX278
+-KX281
+-KX281
+-KX281
+-KX283
+-KX283
+-KX283
+-KX283 560559558557556555554553552551550549548547546545544543542541540539538537536535534533 PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l -XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03 +01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004 2531MUGGUMGUMGUMGUMGUM
+-SB501-SB501-SB501-SB501-RD503-RD503-RD503-RP402-RP402-RP402-RP401-RP401-RP401-RD502-RD502-RD502-RD402-RD402-RD402-RD501-RD501-RD501
++01=360.006+01=360.006+01=360.006+01=360.006+01=360.006+01=360.006+01=360.006+01=360.006+01=360.006+01=360.006+01=360.006+01=360.006+01=360.006+01=360.006+01=360.006+01=360.006+01=360.006+01=360.006+01=360.006+01=360.006+01=360.006+01=360.006
+----- PAGE 88 -----
+Tittel: Erstatning for:
+Rev Dato Tekst Laget Sjekket Godkj. Prosjektnr. Rev. Utg. OROrdre nr. Fag Dok.type Løpenr. Rev.
+Blad: av Entreprise:Haugen Skole
+85 9321006013 BA TI 004 0808
+03
+02
+01 12.08.2423.08.2430.08.2409.05.25
+Oppdatert som bygget fra tavlebyggerLagt til Modbus på 360.006 (side 42)Korrigert etter igangkjøringGjeldende revisjon
+ME2400ME2400SB2659
+210060132100601321006013
+010203
+010203
+Haugen Skole+01=434.004Kabel Linje Type Fra Til
+/60.7 /60.7
+/60.6 /60.6
+/60.6
+/60.7
+/57.3
+/57.2
+/57.4
+/57.3
+/28.3
+/28.2/60.6
+/60.7
+/57.3
+/57.2
+/57.4
+/57.3
+/28.3
+/28.2
+/28.4
+/28.4
+/28.3
+/28.5/28.4
+/28.4
+/28.3
+/28.5
+/28.4
+/28.6
+/28.6
+/28.5
+/29.3 /29.3
+/29.4 /29.4 151150145146147142143144139140141137138286287284285335334333336 -KX285
+-KX285
+-KX285
+-KX285
+-KX321
+-KX321
+-KX322
+-KX322
+-KX331
+-KX331
+-KX332
+-KX332
+-KX332
+-KX333
+-KX333
+-KX333
+-KX334
+-KX334
+-KX334
+-KX342
+-KX342 588587586585584583582581580579578577576575574573572571570569568567566565564563562561 PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el .l
+PFK 4x0,5mm el .l
+PFK 4x0,5mm el .l
+PFK 4x0,5mm el .l
+PFK 4x0,5mm el .l
+PFK 4x0,5mm el .l
+PFK 4x0,5mm el .l
+PFK 4x0,5mm el .l
+PFK 4x0,5mm el .l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l -XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03 +01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004 GG0123--12123125
+-KA501-KA501-SC501-SC501-SC501-IK001-IK001-KA501-KA501-KA401-KA401-SB502-SB502-SB502-SB502
++01=369.002+01=369.002+01=320.001+01=320.001+01=320.001+01=320.001+01=320.001+01=360.006+01=360.006+01=360.006+01=360.006+01=360.006+01=360.006+01=360.006+01=360.006
+----- PAGE 89 -----
+Tittel: Erstatning for:
+Rev Dato Tekst Laget Sjekket Godkj. Prosjektnr. Rev. Utg. OROrdre nr. Fag Dok.type Løpenr. Rev.
+Blad: av Entreprise:Haugen Skole
+86 9321006013 BA TI 004 0808
+03
+02
+01 12.08.2423.08.2430.08.2409.05.25
+Oppdatert som bygget fra tavlebyggerLagt til Modbus på 360.006 (side 42)Korrigert etter igangkjøringGjeldende revisjon
+ME2400ME2400SB2659
+210060132100601321006013
+010203
+010203
+Haugen Skole+01=434.004Kabel Linje Type Fra Til
+/8.4
+/8.4
+/23.10
+/23.9
+/23.10
+/54.6
+/54.6
+/54.6
+/65.3
+/65.3/24.7
+/24.7
+/24.7
+/55.7
+/55.7
+/55.7
+/65.3
+/65.3
+/65.4
+/65.4
+/65.6
+/65.6
+/65.5/65.4
+/65.4
+/65.6
+/65.6
+/65.5
+/65.5
+/65.8
+/65.8
+/65.7
+/65.7/65.5
+/65.8
+/65.8
+/65.7
+/65.7
+/65.9 /65.9
+/65.9 /65.9 353354350349352351346345348347343344342341717273312-KX501
+-KX501
+-KX502
+-KX502
+-KX502
+-KX503
+-KX503
+-KX503
+-KX1210
+-KX1210
+-KX1210
+-KX1210
+-KX1212
+-KX1212
+-KX1212
+-KX1212
+-KX1214
+-KX1214
+-KX1214
+-KX1214
+-KX1215
+-KX1215 616615614613612611610609608607606605604603602601600599598597596595594593592591590589
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l -XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-OU005-OU005-OU005-17-17-17
++01=562.004+01=562.004+01=562.004+01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004S3S1S6S4S3S1S6S43421
+-QT401-QT401-KA501-KA501-KA501-KA501-KA401-KA401-KA401-KA401-RY501-RY501-RY501-RY501-LR401-LR401-LR401-IK001-IK001-IK001-OE001-OE001
++01=360.006+01=360.006+01=360.006+01=360.006+01=360.006+01=360.006+01=360.006+01=360.006+01=360.006+01=360.006+01=360.006+01=360.006+01=360.006+01=360.006+01=360.006+01=360.006+01=360.006+01=320.001+01=320.001+01=320.001+01=434.004+01=434.004
+----- PAGE 90 -----
+Tittel: Erstatning for:
+Rev Dato Tekst Laget Sjekket Godkj. Prosjektnr. Rev. Utg. OROrdre nr. Fag Dok.type Løpenr. Rev.
+Blad: av Entreprise:Haugen Skole
+87 9321006013 BA TI 004 0808
+03
+02
+01 12.08.2423.08.2430.08.2409.05.25
+Oppdatert som bygget fra tavlebyggerLagt til Modbus på 360.006 (side 42)Korrigert etter igangkjøringGjeldende revisjon
+ME2400ME2400SB2659
+210060132100601321006013
+010203
+010203
+Haugen Skole+01=434.004Kabel Linje Type Fra Til
+/45.4 /45.4
+/45.4 /45.4
+/45.5
+/45.5
+/45.6
+/45.6
+/45.7
+/45.7
+/45.8/45.5
+/45.5
+/45.6
+/45.6
+/45.7
+/45.7
+/45.8
+/45.8
+/45.9
+/45.9
+/45.10/45.8
+/45.9
+/45.9
+/45.10
+/45.10
+/18.10
+/18.9
+/18.10
+/18.10/45.10
+/18.10
+/18.9
+/18.10
+/18.10 406405404407258259257256255254253252250251249248246247 -KX1410
+-KX1410
+-KX1411
+-KX1411
+-KX1412
+-KX1412
+-KX1413
+-KX1413
+-KX1414
+-KX1414
+-KX1415
+-KX1415
+-KX1416
+-KX1416
+-KX1512
+-KX1512
+-KX1512
+-KX1512
+644643642641640639638637636635634633632631630629628627626625624623622621620619618617 PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l -XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03 +01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004 NCCNOCNCC------NCCC11C
+-ML501-ML501-ML501-ML501-ME001-ME001-OS003-OS003-OS002-OS002-OS001-OS001-UA001-UA001-SM003/004-SM003/004-SM001/002-SM001/002
++01=370.002+01=370.002+01=370.002+01=370.002+01=320.001+01=320.001+01=542.001+01=542.001+01=542.001+01=542.001+01=542.001+01=542.001+01=332.001+01=332.001+01=332.001+01=332.001+01=332.001+01=332.001
+----- PAGE 91 -----
+Tittel: Erstatning for:
+Rev Dato Tekst Laget Sjekket Godkj. Prosjektnr. Rev. Utg. OROrdre nr. Fag Dok.type Løpenr. Rev.
+Blad: av Entreprise:Haugen Skole
+88 9321006013 BA TI 004 0808
+03
+02
+01 12.08.2423.08.2430.08.2409.05.25
+Oppdatert som bygget fra tavlebyggerLagt til Modbus på 360.006 (side 42)Korrigert etter igangkjøringGjeldende revisjon
+ME2400ME2400SB2659
+210060132100601321006013
+010203
+010203
+Haugen Skole+01=434.004Kabel Linje Type Fra Til
+/18.13 /18.13
+/18.12 /18.12
+/18.13
+/18.13
+/49.4
+/49.4
+/49.5
+/49.5
+/49.6
+/49.6/18.13
+/18.13
+/17.3
+/17.3
+/17.6
+/17.6
+/12.3
+/12.3
+/36.3
+/36.3
+/36.2
+/36.4/36.3
+/36.3
+/36.2
+/36.4
+/36.4
+/36.3
+/36.5
+/36.5
+/36.4/36.4
+/36.3
+/36.5
+/36.5
+/36.4
+/36.6 /36.6
+/36.6 /36.6 372373361362363358359360355356357282283280281278279410411408409 -KX1514
+-KX1514
+-KX1514
+-KX1514
+-KX1610
+-KX1610
+-KX1611
+-KX1611
+-KX1612
+-KX1612
+-KX2101
+-KX2101
+-KX2101
+-KX2102
+-KX2102
+-KX2102
+-KX2103
+-KX2103
+-KX2103
+-KX2104
+-KX2104 672671670669668667666665664663662661660659658657656655654653652651650649648647646645 PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l -XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03 +01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004 12132132132121212NCCNOC
+-RT401-RT401-RD503-RD503-RD503-RD502-RD502-RD502-RD501-RD501-RD501-XQ401-XQ401-XQ502-XQ502-XQ501-XQ501-MV502-MV502-MV502-MV502
++01=370.001+01=370.001+01=390.001+01=390.001+01=390.001+01=390.001+01=390.001+01=390.001+01=390.001+01=390.001+01=390.001+01=369.002+01=369.002+01=390.001+01=390.001+01=390.001+01=390.001+01=370.002+01=370.002+01=370.002+01=370.002
+----- PAGE 92 -----
+Tittel: Erstatning for:
+Rev Dato Tekst Laget Sjekket Godkj. Prosjektnr. Rev. Utg. OROrdre nr. Fag Dok.type Løpenr. Rev.
+Blad: av Entreprise:Haugen Skole
+89 9321006013 BA TI 004 0808
+03
+02
+01 12.08.2423.08.2430.08.2409.05.25
+Oppdatert som bygget fra tavlebyggerLagt til Modbus på 360.006 (side 42)Korrigert etter igangkjøringGjeldende revisjon
+ME2400ME2400SB2659
+210060132100601321006013
+010203
+010203
+Haugen Skole+01=434.004Kabel Linje Type Fra Til
+/36.7 /36.7
+/36.7 /36.7
+/36.8
+/36.8
+/36.7
+/36.9
+/36.9
+/36.8
+/36.10
+/36.10/36.8
+/36.8
+/36.7
+/36.9
+/36.9
+/36.8
+/36.10
+/36.10
+/36.9
+/37.3
+/37.3
+/37.4/36.9
+/37.3
+/37.3
+/37.4
+/37.4
+/37.5
+/37.5
+/37.4/37.4
+/37.5
+/37.5
+/37.4
+/37.6 /37.6
+/37.6 /37.6
+/37.5 /37.5 395396397392393394390391388389452453454379380381376377378375374 -KX2105
+-KX2105
+-KX2106
+-KX2106
+-KX2106
+-KX2107
+-KX2107
+-KX2107
+-KX2108
+-KX2108
+-KX2108
+-KX2111
+-KX2111
+-KX2112
+-KX2112
+-KX2113
+-KX2113
+-KX2113
+-KX2114
+-KX2114
+-KX2114 700699698697696695694693692691690689688687686685684683682681680679678677676675674673 PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l -XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03 +01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004 132132121213213213221
+-RP001-RP001-RP001-RD501-RD501-RD501-RT501-RT501-RT401-RT401-RD401-RD401-RD401-RD501-RD501-RD501-SB401-SB401-SB401-RT501-RT501
++01=370.002+01=370.002+01=370.002+01=370.002+01=370.002+01=370.002+01=370.002+01=370.002+01=370.002+01=370.002+01=320.002+01=320.002+01=320.002+01=370.001+01=370.001+01=370.001+01=370.001+01=370.001+01=370.001+01=370.001+01=370.001
+----- PAGE 93 -----
+Tittel: Erstatning for:
+Rev Dato Tekst Laget Sjekket Godkj. Prosjektnr. Rev. Utg. OROrdre nr. Fag Dok.type Løpenr. Rev.
+Blad: av Entreprise:Haugen Skole
+90 9321006013 BA TI 004 0808
+03
+02
+01 12.08.2423.08.2430.08.2409.05.25
+Oppdatert som bygget fra tavlebyggerLagt til Modbus på 360.006 (side 42)Korrigert etter igangkjøringGjeldende revisjon
+ME2400ME2400SB2659
+210060132100601321006013
+010203
+010203
+Haugen Skole+01=434.004Kabel Linje Type Fra Til
+/37.7 /37.7
+/37.7 /37.7
+/37.6
+/37.8
+/37.8
+/37.7
+/37.9
+/37.9
+/37.8/37.6
+/37.8
+/37.8
+/37.7
+/37.9
+/37.9
+/37.8 461462463458459460455456457 -KX2115
+-KX2115
+-KX2115
+-KX2116
+-KX2116
+-KX2116
+-KX2117
+-KX2117
+-KX2117
+728727726725724723722721720719718717716715714713712711710709708707706705704703702701 PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l
+PFK 4x0,5mm el.l -XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03-XX03 +01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004
++01=434.004 132132132
+-RD401-RD401-RD401-RD401-RD401-RD401-RD401-RD401-RD401
++01=320.008+01=320.008+01=320.008+01=320.005+01=320.005+01=320.005+01=320.003+01=320.003+01=320.003
